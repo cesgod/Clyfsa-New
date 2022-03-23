@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>aps</name>
+    <Style id="line-FF5252-4681-nodesc-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>4.681</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF5252-4681-nodesc-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF5252-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF5252-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF5252-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Línea 1</name>
+      <styleUrl>#line-FF5252-4681-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -56.4462711,-25.7717904,0
+          -56.4399304,-25.771974,0
+          -56.4404346,-25.7822342,0
+          -56.4526441,-25.7818091,0
+          -56.4526655,-25.7864656,0
+          -56.4526333,-25.7881078,0
+          -56.4517536,-25.7881465,0
+          -56.4518394,-25.790832,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

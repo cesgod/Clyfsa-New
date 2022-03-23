@@ -1,0 +1,2274 @@
+// JSON Document
+//****** JSON for Image/Page 1 ******
+{
+	"Lines": [
+		{
+			"Words": [
+				{
+					"WordText": "LOCALES",
+					"Left": 114,
+					"Top": 3,
+					"Height": 13,
+					"Width": 79
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 3
+		},
+		{
+			"Words": [
+				{
+					"WordText": "GASTON",
+					"Left": 39,
+					"Top": 35,
+					"Height": 14,
+					"Width": 69
+				},
+				{
+					"WordText": "CELL",
+					"Left": 114,
+					"Top": 35,
+					"Height": 14,
+					"Width": 41
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 35
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FARMACIA",
+					"Left": 39,
+					"Top": 69,
+					"Height": 14,
+					"Width": 86
+				},
+				{
+					"WordText": "PUNTO",
+					"Left": 130,
+					"Top": 69,
+					"Height": 14,
+					"Width": 58
+				},
+				{
+					"WordText": "FARMA",
+					"Left": 194,
+					"Top": 70,
+					"Height": 12,
+					"Width": 57
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 69
+		},
+		{
+			"Words": [
+				{
+					"WordText": "(Ybaroty)",
+					"Left": 39,
+					"Top": 89,
+					"Height": 17,
+					"Width": 67
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 89
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FARMACIA",
+					"Left": 39,
+					"Top": 123,
+					"Height": 13,
+					"Width": 85
+				},
+				{
+					"WordText": "FARMATITU",
+					"Left": 130,
+					"Top": 123,
+					"Height": 13,
+					"Width": 94
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 123
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FARMACIA",
+					"Left": 39,
+					"Top": 174,
+					"Height": 13,
+					"Width": 86
+				},
+				{
+					"WordText": "STA.",
+					"Left": 129,
+					"Top": 174,
+					"Height": 13,
+					"Width": 36
+				},
+				{
+					"WordText": "MARIA",
+					"Left": 172,
+					"Top": 174,
+					"Height": 13,
+					"Width": 52
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 174
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FARMACIA",
+					"Left": 39,
+					"Top": 215,
+					"Height": 14,
+					"Width": 86
+				},
+				{
+					"WordText": "STA.",
+					"Left": 129,
+					"Top": 215,
+					"Height": 14,
+					"Width": 36
+				},
+				{
+					"WordText": "VICTORIA",
+					"Left": 171,
+					"Top": 215,
+					"Height": 14,
+					"Width": 79
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 215
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FARMACIA",
+					"Left": 39,
+					"Top": 241,
+					"Height": 13,
+					"Width": 86
+				},
+				{
+					"WordText": "STA.",
+					"Left": 129,
+					"Top": 241,
+					"Height": 13,
+					"Width": 36
+				},
+				{
+					"WordText": "VICTORIA",
+					"Left": 171,
+					"Top": 241,
+					"Height": 14,
+					"Width": 79
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 241
+		},
+		{
+			"Words": [
+				{
+					"WordText": "EMA",
+					"Left": 39,
+					"Top": 267,
+					"Height": 13,
+					"Width": 35
+				},
+				{
+					"WordText": "PRODUCTORA",
+					"Left": 80,
+					"Top": 267,
+					"Height": 13,
+					"Width": 118
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 267
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FINANCIERA",
+					"Left": 39,
+					"Top": 302,
+					"Height": 13,
+					"Width": 100
+				},
+				{
+					"WordText": "EL",
+					"Left": 145,
+					"Top": 302,
+					"Height": 13,
+					"Width": 20
+				},
+				{
+					"WordText": "COMERCIO",
+					"Left": 169,
+					"Top": 301,
+					"Height": 14,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 301
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FINANCIERA",
+					"Left": 39,
+					"Top": 345,
+					"Height": 14,
+					"Width": 100
+				},
+				{
+					"WordText": "INTERFISA",
+					"Left": 145,
+					"Top": 345,
+					"Height": 14,
+					"Width": 87
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 345
+		},
+		{
+			"Words": [
+				{
+					"WordText": "MARICEL",
+					"Left": 39,
+					"Top": 389,
+					"Height": 13,
+					"Width": 73
+				},
+				{
+					"WordText": "NOVEDADES",
+					"Left": 118,
+					"Top": 389,
+					"Height": 13,
+					"Width": 103
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 389
+		},
+		{
+			"Words": [
+				{
+					"WordText": "JM",
+					"Left": 38,
+					"Top": 424,
+					"Height": 13,
+					"Width": 22
+				},
+				{
+					"WordText": "COMERCIAL",
+					"Left": 66,
+					"Top": 423,
+					"Height": 14,
+					"Width": 99
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 423
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FABY",
+					"Left": 39,
+					"Top": 458,
+					"Height": 13,
+					"Width": 42
+				},
+				{
+					"WordText": "CEL",
+					"Left": 87,
+					"Top": 458,
+					"Height": 14,
+					"Width": 32
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 458
+		},
+		{
+			"Words": [
+				{
+					"WordText": "NANNY",
+					"Left": 39,
+					"Top": 493,
+					"Height": 13,
+					"Width": 57
+				},
+				{
+					"WordText": "SHOP",
+					"Left": 102,
+					"Top": 493,
+					"Height": 14,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 493
+		},
+		{
+			"Words": [
+				{
+					"WordText": "PAPELERIA",
+					"Left": 39,
+					"Top": 519,
+					"Height": 13,
+					"Width": 92
+				},
+				{
+					"WordText": "PAPELEX",
+					"Left": 136,
+					"Top": 519,
+					"Height": 13,
+					"Width": 76
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 519
+		},
+		{
+			"Words": [
+				{
+					"WordText": "IRC",
+					"Left": 39,
+					"Top": 551,
+					"Height": 14,
+					"Width": 27
+				},
+				{
+					"WordText": "INFORMATICA",
+					"Left": 73,
+					"Top": 551,
+					"Height": 14,
+					"Width": 113
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 551
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CRISTAL",
+					"Left": 38,
+					"Top": 589,
+					"Height": 14,
+					"Width": 70
+				},
+				{
+					"WordText": "LENTES",
+					"Left": 114,
+					"Top": 589,
+					"Height": 14,
+					"Width": 63
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 589
+		},
+		{
+			"Words": [
+				{
+					"WordText": "AGENCIA",
+					"Left": 38,
+					"Top": 628,
+					"Height": 13,
+					"Width": 75
+				},
+				{
+					"WordText": "BUENOS",
+					"Left": 119,
+					"Top": 628,
+					"Height": 13,
+					"Width": 69
+				},
+				{
+					"WordText": "VIAJES",
+					"Left": 194,
+					"Top": 628,
+					"Height": 13,
+					"Width": 56
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 628
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CLICK",
+					"Left": 39,
+					"Top": 660,
+					"Height": 14,
+					"Width": 48
+				},
+				{
+					"WordText": "CELL",
+					"Left": 92,
+					"Top": 660,
+					"Height": 14,
+					"Width": 42
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 660
+		},
+		{
+			"Words": [
+				{
+					"WordText": "DESPENSA",
+					"Left": 39,
+					"Top": 686,
+					"Height": 13,
+					"Width": 90
+				},
+				{
+					"WordText": "JESSICA",
+					"Left": 133,
+					"Top": 686,
+					"Height": 13,
+					"Width": 70
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 686
+		},
+		{
+			"Words": [
+				{
+					"WordText": "DESPENSA",
+					"Left": 39,
+					"Top": 718,
+					"Height": 14,
+					"Width": 90
+				},
+				{
+					"WordText": "N.F.",
+					"Left": 135,
+					"Top": 718,
+					"Height": 13,
+					"Width": 29
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 718
+		},
+		{
+			"Words": [
+				{
+					"WordText": "TECNOMUNDO",
+					"Left": 38,
+					"Top": 756,
+					"Height": 14,
+					"Width": 121
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 756
+		},
+		{
+			"Words": [
+				{
+					"WordText": "ELECTRO",
+					"Left": 39,
+					"Top": 788,
+					"Height": 14,
+					"Width": 77
+				},
+				{
+					"WordText": "INFO",
+					"Left": 123,
+					"Top": 789,
+					"Height": 13,
+					"Width": 39
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 788
+		},
+		{
+			"Words": [
+				{
+					"WordText": "LIBRERIA",
+					"Left": 39,
+					"Top": 814,
+					"Height": 13,
+					"Width": 75
+				},
+				{
+					"WordText": "CINDY",
+					"Left": 119,
+					"Top": 814,
+					"Height": 14,
+					"Width": 52
+				},
+				{
+					"WordText": "MARIA",
+					"Left": 176,
+					"Top": 814,
+					"Height": 13,
+					"Width": 52
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 814
+		},
+		{
+			"Words": [
+				{
+					"WordText": "SMVG",
+					"Left": 39,
+					"Top": 839,
+					"Height": 14,
+					"Width": 47
+				},
+				{
+					"WordText": "EMPRENDIMIENTO",
+					"Left": 93,
+					"Top": 839,
+					"Height": 14,
+					"Width": 153
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 839
+		},
+		{
+			"Words": [
+				{
+					"WordText": "COMERCIAL",
+					"Left": 39,
+					"Top": 865,
+					"Height": 14,
+					"Width": 98
+				},
+				{
+					"WordText": "SAN",
+					"Left": 142,
+					"Top": 865,
+					"Height": 14,
+					"Width": 34
+				},
+				{
+					"WordText": "JOSÉ",
+					"Left": 181,
+					"Top": 862,
+					"Height": 17,
+					"Width": 43
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 862
+		},
+		{
+			"Words": [
+				{
+					"WordText": "PATO",
+					"Left": 39,
+					"Top": 900,
+					"Height": 13,
+					"Width": 44
+				},
+				{
+					"WordText": "CELL",
+					"Left": 89,
+					"Top": 900,
+					"Height": 13,
+					"Width": 41
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 900
+		},
+		{
+			"Words": [
+				{
+					"WordText": "DESPENSA",
+					"Left": 39,
+					"Top": 934,
+					"Height": 14,
+					"Width": 90
+				},
+				{
+					"WordText": "LUIS",
+					"Left": 134,
+					"Top": 934,
+					"Height": 14,
+					"Width": 36
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 934
+		},
+		{
+			"Words": [
+				{
+					"WordText": "FERNANDO",
+					"Left": 39,
+					"Top": 953,
+					"Height": 14,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 953
+		},
+		{
+			"Words": [
+				{
+					"WordText": "DIRECCION",
+					"Left": 377,
+					"Top": 3,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 3
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CARLOS",
+					"Left": 283,
+					"Top": 26,
+					"Height": 13,
+					"Width": 67
+				},
+				{
+					"WordText": "A",
+					"Left": 356,
+					"Top": 26,
+					"Height": 13,
+					"Width": 14
+				},
+				{
+					"WordText": "LÓPEZ",
+					"Left": 377,
+					"Top": 22,
+					"Height": 17,
+					"Width": 54
+				},
+				{
+					"WordText": "C/",
+					"Left": 436,
+					"Top": 26,
+					"Height": 13,
+					"Width": 17
+				},
+				{
+					"WordText": "MCAL-",
+					"Left": 458,
+					"Top": 26,
+					"Height": 13,
+					"Width": 49
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 22
+		},
+		{
+			"Words": [
+				{
+					"WordText": "LÓPEZ",
+					"Left": 283,
+					"Top": 42,
+					"Height": 16,
+					"Width": 54
+				}
+			],
+			"MaxHeight": 16,
+			"MinTop": 42
+		},
+		{
+			"Words": [
+				{
+					"WordText": "BVAR.",
+					"Left": 283,
+					"Top": 70,
+					"Height": 12,
+					"Width": 48
+				},
+				{
+					"WordText": "AMOLAS",
+					"Left": 337,
+					"Top": 69,
+					"Height": 14,
+					"Width": 67
+				},
+				{
+					"WordText": "ESO'",
+					"Left": 410,
+					"Top": 69,
+					"Height": 14,
+					"Width": 39
+				},
+				{
+					"WordText": "CARLOS",
+					"Left": 454,
+					"Top": 69,
+					"Height": 14,
+					"Width": 68
+				},
+				{
+					"WordText": "A.",
+					"Left": 527,
+					"Top": 70,
+					"Height": 12,
+					"Width": 15
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 69
+		},
+		{
+			"Words": [
+				{
+					"WordText": "LÓPEZ",
+					"Left": 283,
+					"Top": 85,
+					"Height": 17,
+					"Width": 54
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 85
+		},
+		{
+			"Words": [
+				{
+					"WordText": "MCAL.",
+					"Left": 283,
+					"Top": 113,
+					"Height": 14,
+					"Width": 49
+				},
+				{
+					"WordText": "LÓPEZ",
+					"Left": 339,
+					"Top": 110,
+					"Height": 17,
+					"Width": 54
+				},
+				{
+					"WordText": "ESO/",
+					"Left": 399,
+					"Top": 113,
+					"Height": 14,
+					"Width": 39
+				},
+				{
+					"WordText": "GRAL.",
+					"Left": 443,
+					"Top": 113,
+					"Height": 14,
+					"Width": 48
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 110
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CABALLERO",
+					"Left": 283,
+					"Top": 133,
+					"Height": 13,
+					"Width": 99
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 133
+		},
+		{
+			"Words": [
+				{
+					"WordText": "COLÓN",
+					"Left": 283,
+					"Top": 170,
+					"Height": 17,
+					"Width": 58
+				},
+				{
+					"WordText": "C/",
+					"Left": 347,
+					"Top": 174,
+					"Height": 13,
+					"Width": 16
+				},
+				{
+					"WordText": "CARLOS",
+					"Left": 369,
+					"Top": 174,
+					"Height": 13,
+					"Width": 67
+				},
+				{
+					"WordText": "A.",
+					"Left": 442,
+					"Top": 174,
+					"Height": 13,
+					"Width": 14
+				},
+				{
+					"WordText": "LÓPEZ",
+					"Left": 463,
+					"Top": 170,
+					"Height": 17,
+					"Width": 54
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 170
+		},
+		{
+			"Words": [
+				{
+					"WordText": "COLÓN",
+					"Left": 283,
+					"Top": 212,
+					"Height": 17,
+					"Width": 58
+				},
+				{
+					"WordText": "ESQ/",
+					"Left": 347,
+					"Top": 215,
+					"Height": 14,
+					"Width": 39
+				},
+				{
+					"WordText": "GRAL.",
+					"Left": 392,
+					"Top": 215,
+					"Height": 14,
+					"Width": 48
+				},
+				{
+					"WordText": "CABALLERO",
+					"Left": 447,
+					"Top": 215,
+					"Height": 14,
+					"Width": 100
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 212
+		},
+		{
+			"Words": [
+				{
+					"WordText": "BVAR.",
+					"Left": 283,
+					"Top": 241,
+					"Height": 13,
+					"Width": 48
+				},
+				{
+					"WordText": "ITURBE",
+					"Left": 338,
+					"Top": 241,
+					"Height": 14,
+					"Width": 60
+				},
+				{
+					"WordText": "ESC)/",
+					"Left": 404,
+					"Top": 241,
+					"Height": 14,
+					"Width": 39
+				},
+				{
+					"WordText": "CURUPAYTY",
+					"Left": 449,
+					"Top": 241,
+					"Height": 14,
+					"Width": 102
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 241
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CURUPAYTY",
+					"Left": 283,
+					"Top": 267,
+					"Height": 13,
+					"Width": 103
+				},
+				{
+					"WordText": "C/",
+					"Left": 390,
+					"Top": 267,
+					"Height": 13,
+					"Width": 17
+				},
+				{
+					"WordText": "GRAL.",
+					"Left": 412,
+					"Top": 267,
+					"Height": 13,
+					"Width": 48
+				},
+				{
+					"WordText": "DIAZ",
+					"Left": 468,
+					"Top": 267,
+					"Height": 13,
+					"Width": 36
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 267
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CARLOS",
+					"Left": 283,
+					"Top": 292,
+					"Height": 13,
+					"Width": 67
+				},
+				{
+					"WordText": "A.",
+					"Left": 356,
+					"Top": 292,
+					"Height": 13,
+					"Width": 14
+				},
+				{
+					"WordText": "LÓPEZ",
+					"Left": 377,
+					"Top": 288,
+					"Height": 17,
+					"Width": 54
+				},
+				{
+					"WordText": "ENTRE",
+					"Left": 437,
+					"Top": 292,
+					"Height": 13,
+					"Width": 55
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 288
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CURUPAYTY",
+					"Left": 283,
+					"Top": 311,
+					"Height": 14,
+					"Width": 103
+				},
+				{
+					"WordText": "Y",
+					"Left": 390,
+					"Top": 311,
+					"Height": 13,
+					"Width": 11
+				},
+				{
+					"WordText": "COLON",
+					"Left": 407,
+					"Top": 311,
+					"Height": 14,
+					"Width": 58
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 311
+		},
+		{
+			"Words": [
+				{
+					"WordText": "HUMAITA",
+					"Left": 283,
+					"Top": 346,
+					"Height": 13,
+					"Width": 74
+				},
+				{
+					"WordText": "C/",
+					"Left": 363,
+					"Top": 345,
+					"Height": 14,
+					"Width": 16
+				},
+				{
+					"WordText": "MCAL.",
+					"Left": 385,
+					"Top": 345,
+					"Height": 14,
+					"Width": 48
+				},
+				{
+					"WordText": "ESTIGARRIBIA",
+					"Left": 441,
+					"Top": 345,
+					"Height": 14,
+					"Width": 115
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 345
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CARLOS",
+					"Left": 283,
+					"Top": 379,
+					"Height": 14,
+					"Width": 67
+				},
+				{
+					"WordText": "A.",
+					"Left": 356,
+					"Top": 380,
+					"Height": 13,
+					"Width": 14
+				},
+				{
+					"WordText": "LÓPEZ",
+					"Left": 377,
+					"Top": 376,
+					"Height": 17,
+					"Width": 54
+				},
+				{
+					"WordText": "C/",
+					"Left": 436,
+					"Top": 379,
+					"Height": 14,
+					"Width": 17
+				},
+				{
+					"WordText": "ALEJO",
+					"Left": 457,
+					"Top": 379,
+					"Height": 14,
+					"Width": 53
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 376
+		},
+		{
+			"Words": [
+				{
+					"WordText": "GARCíA",
+					"Left": 283,
+					"Top": 395,
+					"Height": 17,
+					"Width": 63
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 395
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CHILE",
+					"Left": 283,
+					"Top": 423,
+					"Height": 14,
+					"Width": 48
+				},
+				{
+					"WordText": "C/",
+					"Left": 336,
+					"Top": 423,
+					"Height": 14,
+					"Width": 17
+				},
+				{
+					"WordText": "ITA",
+					"Left": 359,
+					"Top": 424,
+					"Height": 12,
+					"Width": 25
+				},
+				{
+					"WordText": "YBATE",
+					"Left": 389,
+					"Top": 424,
+					"Height": 12,
+					"Width": 53
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 423
+		},
+		{
+			"Words": [
+				{
+					"WordText": "RUIZ",
+					"Left": 283,
+					"Top": 449,
+					"Height": 13,
+					"Width": 38
+				},
+				{
+					"WordText": "D.",
+					"Left": 327,
+					"Top": 449,
+					"Height": 13,
+					"Width": 14
+				},
+				{
+					"WordText": "DE",
+					"Left": 348,
+					"Top": 449,
+					"Height": 13,
+					"Width": 22
+				},
+				{
+					"WordText": "MELGAREJO",
+					"Left": 376,
+					"Top": 448,
+					"Height": 14,
+					"Width": 102
+				},
+				{
+					"WordText": "C/",
+					"Left": 484,
+					"Top": 448,
+					"Height": 14,
+					"Width": 16
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 448
+		},
+		{
+			"Words": [
+				{
+					"WordText": "GREGORIO",
+					"Left": 283,
+					"Top": 468,
+					"Height": 13,
+					"Width": 91
+				},
+				{
+					"WordText": "BENITEZ",
+					"Left": 380,
+					"Top": 468,
+					"Height": 13,
+					"Width": 70
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 468
+		},
+		{
+			"Words": [
+				{
+					"WordText": "CARLOS",
+					"Left": 283,
+					"Top": 493,
+					"Height": 14,
+					"Width": 67
+				},
+				{
+					"WordText": "A.",
+					"Left": 356,
+					"Top": 493,
+					"Height": 13,
+					"Width": 14
+				},
+				{
+					"WordText": "LÓPEZ",
+					"Left": 377,
+					"Top": 490,
+					"Height": 17,
+					"Width": 54
+				},
+				{
+					"WordText": "C/",
+					"Left": 436,
+					"Top": 493,
+					"Height": 14,
+					"Width": 17
+				},
+				{
+					"WordText": "COLÓN",
+					"Left": 457,
+					"Top": 490,
+					"Height": 17,
+					"Width": 59
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 490
+		},
+		{
+			"Words": [
+				{
+					"WordText": "PAI",
+					"Left": 283,
+					"Top": 519,
+					"Height": 13,
+					"Width": 28
+				},
+				{
+					"WordText": "ANASAGASTI",
+					"Left": 317,
+					"Top": 519,
+					"Height": 13,
+					"Width": 106
+				},
+				{
+					"WordText": "C/",
+					"Left": 429,
+					"Top": 519,
+					"Height": 13,
+					"Width": 17
+				},
+				{
+					"WordText": "COMUNEROS",
+					"Left": 450,
+					"Top": 518,
+					"Height": 14,
+					"Width": 110
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 518
+		},
+		{
+			"Words": [
+				{
+					"WordText": "AVDA.",
+					"Left": 283,
+					"Top": 542,
+					"Height": 12,
+					"Width": 48
+				},
+				{
+					"WordText": "C.",
+					"Left": 338,
+					"Top": 541,
+					"Height": 14,
+					"Width": 15
+				},
+				{
+					"WordText": "LAMBARÉ",
+					"Left": 359,
+					"Top": 538,
+					"Height": 16,
+					"Width": 79
+				},
+				{
+					"WordText": "3969",
+					"Left": 444,
+					"Top": 542,
+					"Height": 13,
+					"Width": 36
+				},
+				{
+					"WordText": "C/",
+					"Left": 485,
+					"Top": 541,
+					"Height": 14,
+					"Width": 17
+				},
+				{
+					"WordText": "D.",
+					"Left": 508,
+					"Top": 542,
+					"Height": 12,
+					"Width": 14
+				}
+			],
+			"MaxHeight": 16,
+			"MinTop": 538
+		},
+		{
+			"Words": [
+				{
+					"WordText": "ORTIZ",
+					"Left": 283,
+					"Top": 561,
+					"Height": 13,
+					"Width": 49
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 561
+		},
+		{
+			"Words": [
+				{
+					"WordText": "RUIZ",
+					"Left": 283,
+					"Top": 580,
+					"Height": 13,
+					"Width": 39
+				},
+				{
+					"WordText": ".D.",
+					"Left": 327,
+					"Top": 580,
+					"Height": 12,
+					"Width": 19
+				},
+				{
+					"WordText": "MELGAREJO",
+					"Left": 353,
+					"Top": 579,
+					"Height": 14,
+					"Width": 102
+				},
+				{
+					"WordText": "C/",
+					"Left": 461,
+					"Top": 579,
+					"Height": 14,
+					"Width": 16
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 579
+		},
+		{
+			"Words": [
+				{
+					"WordText": "NATALICIO",
+					"Left": 283,
+					"Top": 599,
+					"Height": 13,
+					"Width": 88
+				},
+				{
+					"WordText": "TALAVERA",
+					"Left": 375,
+					"Top": 599,
+					"Height": 13,
+					"Width": 88
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 599
+		},
+		{
+			"Words": [
+				{
+					"WordText": "G.",
+					"Left": 283,
+					"Top": 618,
+					"Height": 14,
+					"Width": 16
+				},
+				{
+					"WordText": "BENITEZ",
+					"Left": 305,
+					"Top": 618,
+					"Height": 13,
+					"Width": 70
+				},
+				{
+					"WordText": "ESQ/",
+					"Left": 381,
+					"Top": 618,
+					"Height": 14,
+					"Width": 39
+				},
+				{
+					"WordText": "RUIZ",
+					"Left": 426,
+					"Top": 618,
+					"Height": 14,
+					"Width": 37
+				},
+				{
+					"WordText": "D.",
+					"Left": 469,
+					"Top": 618,
+					"Height": 13,
+					"Width": 15
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 618
+		},
+		{
+			"Words": [
+				{
+					"WordText": "MELGAREJO",
+					"Left": 283,
+					"Top": 637,
+					"Height": 14,
+					"Width": 102
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 637
+		},
+		{
+			"Words": [
+				{
+					"WordText": "COLÓN",
+					"Left": 283,
+					"Top": 657,
+					"Height": 17,
+					"Width": 58
+				},
+				{
+					"WordText": "C/",
+					"Left": 347,
+					"Top": 660,
+					"Height": 14,
+					"Width": 16
+				},
+				{
+					"WordText": "CARLOS",
+					"Left": 368,
+					"Top": 660,
+					"Height": 14,
+					"Width": 68
+				},
+				{
+					"WordText": "A.",
+					"Left": 441,
+					"Top": 660,
+					"Height": 13,
+					"Width": 15
+				},
+				{
+					"WordText": "LÓPEZ",
+					"Left": 463,
+					"Top": 657,
+					"Height": 17,
+					"Width": 54
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 657
+		},
+		{
+			"Words": [
+				{
+					"WordText": "MCAL.",
+					"Left": 283,
+					"Top": 686,
+					"Height": 13,
+					"Width": 49
+				},
+				{
+					"WordText": "ESTIGARRIBIA",
+					"Left": 339,
+					"Top": 686,
+					"Height": 13,
+					"Width": 116
+				},
+				{
+					"WordText": "Y",
+					"Left": 460,
+					"Top": 686,
+					"Height": 13,
+					"Width": 11
+				},
+				{
+					"WordText": "AZARA",
+					"Left": 476,
+					"Top": 686,
+					"Height": 13,
+					"Width": 55
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 686
+		},
+		{
+			"Words": [
+				{
+					"WordText": "BVAR.",
+					"Left": 283,
+					"Top": 707,
+					"Height": 14,
+					"Width": 48
+				},
+				{
+					"WordText": "AMOLAS",
+					"Left": 337,
+					"Top": 708,
+					"Height": 14,
+					"Width": 67
+				},
+				{
+					"WordText": "Y",
+					"Left": 409,
+					"Top": 708,
+					"Height": 13,
+					"Width": 11
+				},
+				{
+					"WordText": "GREGORIO",
+					"Left": 425,
+					"Top": 708,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 707
+		},
+		{
+			"Words": [
+				{
+					"WordText": "BENITEZ",
+					"Left": 283,
+					"Top": 727,
+					"Height": 13,
+					"Width": 70
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 727
+		},
+		{
+			"Words": [
+				{
+					"WordText": "MCAL.",
+					"Left": 283,
+					"Top": 747,
+					"Height": 13,
+					"Width": 49
+				},
+				{
+					"WordText": "ESTIGARRIBIA",
+					"Left": 339,
+					"Top": 746,
+					"Height": 14,
+					"Width": 116
+				},
+				{
+					"WordText": "Y",
+					"Left": 460,
+					"Top": 747,
+					"Height": 12,
+					"Width": 11
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 746
+		},
+		{
+			"Words": [
+				{
+					"WordText": "GREGORIO",
+					"Left": 283,
+					"Top": 766,
+					"Height": 13,
+					"Width": 91
+				},
+				{
+					"WordText": "BENITEZ",
+					"Left": 380,
+					"Top": 766,
+					"Height": 13,
+					"Width": 70
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 766
+		},
+		{
+			"Words": [
+				{
+					"WordText": "HERNANDARIAS",
+					"Left": 283,
+					"Top": 788,
+					"Height": 14,
+					"Width": 132
+				},
+				{
+					"WordText": "Y",
+					"Left": 421,
+					"Top": 789,
+					"Height": 12,
+					"Width": 10
+				},
+				{
+					"WordText": "HUMAITA",
+					"Left": 437,
+					"Top": 789,
+					"Height": 13,
+					"Width": 74
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 788
+		},
+		{
+			"Words": [
+				{
+					"WordText": "MCAL.",
+					"Left": 283,
+					"Top": 814,
+					"Height": 14,
+					"Width": 49
+				},
+				{
+					"WordText": "LÓPEZ",
+					"Left": 339,
+					"Top": 811,
+					"Height": 17,
+					"Width": 54
+				},
+				{
+					"WordText": "858",
+					"Left": 398,
+					"Top": 815,
+					"Height": 13,
+					"Width": 27
+				}
+			],
+			"MaxHeight": 17,
+			"MinTop": 811
+		},
+		{
+			"Words": [
+				{
+					"WordText": "ESTERO",
+					"Left": 283,
+					"Top": 839,
+					"Height": 14,
+					"Width": 68
+				},
+				{
+					"WordText": "BELLACO",
+					"Left": 357,
+					"Top": 839,
+					"Height": 14,
+					"Width": 75
+				},
+				{
+					"WordText": "Y",
+					"Left": 438,
+					"Top": 840,
+					"Height": 12,
+					"Width": 11
+				},
+				{
+					"WordText": "PERU",
+					"Left": 454,
+					"Top": 840,
+					"Height": 13,
+					"Width": 45
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 839
+		},
+		{
+			"Words": [
+				{
+					"WordText": "14",
+					"Left": 284,
+					"Top": 891,
+					"Height": 12,
+					"Width": 17
+				},
+				{
+					"WordText": "DE",
+					"Left": 307,
+					"Top": 891,
+					"Height": 12,
+					"Width": 21
+				},
+				{
+					"WordText": "MAYO",
+					"Left": 334,
+					"Top": 890,
+					"Height": 14,
+					"Width": 48
+				},
+				{
+					"WordText": "C/",
+					"Left": 388,
+					"Top": 890,
+					"Height": 14,
+					"Width": 16
+				},
+				{
+					"WordText": "JOAQUIN",
+					"Left": 409,
+					"Top": 890,
+					"Height": 14,
+					"Width": 73
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 890
+		},
+		{
+			"Words": [
+				{
+					"WordText": "ESTIGARRIBIA",
+					"Left": 283,
+					"Top": 910,
+					"Height": 13,
+					"Width": 116
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 910
+		},
+		{
+			"Words": [
+				{
+					"WordText": "BVAR.",
+					"Left": 283,
+					"Top": 944,
+					"Height": 13,
+					"Width": 48
+				},
+				{
+					"WordText": "YEGROS",
+					"Left": 337,
+					"Top": 944,
+					"Height": 13,
+					"Width": 71
+				},
+				{
+					"WordText": "C/",
+					"Left": 414,
+					"Top": 944,
+					"Height": 13,
+					"Width": 16
+				},
+				{
+					"WordText": "BVAR.",
+					"Left": 436,
+					"Top": 944,
+					"Height": 13,
+					"Width": 48
+				},
+				{
+					"WordText": "ITURBE",
+					"Left": 491,
+					"Top": 944,
+					"Height": 13,
+					"Width": 60
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 944
+		},
+		{
+			"Words": [
+				{
+					"WordText": "TELCEL",
+					"Left": 630,
+					"Top": 3,
+					"Height": 13,
+					"Width": 69
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 3
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0971422767",
+					"Left": 619,
+					"Top": 26,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 26
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0981315751",
+					"Left": 619,
+					"Top": 45,
+					"Height": 13,
+					"Width": 89
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 45
+		},
+		{
+			"Words": [
+				{
+					"WordText": "44877",
+					"Left": 642,
+					"Top": 79,
+					"Height": 14,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 79
+		},
+		{
+			"Words": [
+				{
+					"WordText": "4",
+					"Left": 641,
+					"Top": 123,
+					"Height": 13,
+					"Width": 9
+				},
+				{
+					"WordText": "i",
+					"Left": 652,
+					"Top": 123,
+					"Height": 13,
+					"Width": 4
+				},
+				{
+					"WordText": "043",
+					"Left": 661,
+					"Top": 123,
+					"Height": 13,
+					"Width": 26
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 123
+		},
+		{
+			"Words": [
+				{
+					"WordText": "42176",
+					"Left": 642,
+					"Top": 155,
+					"Height": 13,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 155
+		},
+		{
+			"Words": [
+				{
+					"WordText": "40271",
+					"Left": 641,
+					"Top": 174,
+					"Height": 13,
+					"Width": 44
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 174
+		},
+		{
+			"Words": [
+				{
+					"WordText": "40383",
+					"Left": 641,
+					"Top": 194,
+					"Height": 13,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 194
+		},
+		{
+			"Words": [
+				{
+					"WordText": "41",
+					"Left": 642,
+					"Top": 215,
+					"Height": 13,
+					"Width": 14
+				},
+				{
+					"WordText": "730",
+					"Left": 661,
+					"Top": 215,
+					"Height": 14,
+					"Width": 27
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 215
+		},
+		{
+			"Words": [
+				{
+					"WordText": "41",
+					"Left": 642,
+					"Top": 241,
+					"Height": 13,
+					"Width": 14
+				},
+				{
+					"WordText": "730",
+					"Left": 661,
+					"Top": 241,
+					"Height": 14,
+					"Width": 27
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 241
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0985613644",
+					"Left": 619,
+					"Top": 267,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 267
+		},
+		{
+			"Words": [
+				{
+					"WordText": "43848",
+					"Left": 641,
+					"Top": 292,
+					"Height": 13,
+					"Width": 47
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 292
+		},
+		{
+			"Words": [
+				{
+					"WordText": "44555",
+					"Left": 642,
+					"Top": 312,
+					"Height": 13,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 312
+		},
+		{
+			"Words": [
+				{
+					"WordText": "44528",
+					"Left": 642,
+					"Top": 346,
+					"Height": 13,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 346
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0994214098",
+					"Left": 619,
+					"Top": 389,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 389
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0976456665",
+					"Left": 619,
+					"Top": 424,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 424
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0971703202",
+					"Left": 619,
+					"Top": 459,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 459
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0981453251",
+					"Left": 619,
+					"Top": 493,
+					"Height": 14,
+					"Width": 89
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 493
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0981348694",
+					"Left": 619,
+					"Top": 519,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 519
+		},
+		{
+			"Words": [
+				{
+					"WordText": "44785",
+					"Left": 641,
+					"Top": 589,
+					"Height": 14,
+					"Width": 47
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 589
+		},
+		{
+			"Words": [
+				{
+					"WordText": "40795",
+					"Left": 641,
+					"Top": 686,
+					"Height": 13,
+					"Width": 47
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 686
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0984365650",
+					"Left": 619,
+					"Top": 718,
+					"Height": 14,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 718
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0976406748",
+					"Left": 619,
+					"Top": 757,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 757
+		},
+		{
+			"Words": [
+				{
+					"WordText": "44713",
+					"Left": 641,
+					"Top": 789,
+					"Height": 13,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 789
+		},
+		{
+			"Words": [
+				{
+					"WordText": "40070",
+					"Left": 642,
+					"Top": 815,
+					"Height": 13,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 815
+		},
+		{
+			"Words": [
+				{
+					"WordText": "40645",
+					"Left": 642,
+					"Top": 839,
+					"Height": 14,
+					"Width": 46
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 839
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0971306984",
+					"Left": 619,
+					"Top": 865,
+					"Height": 14,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 865
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0983700700",
+					"Left": 619,
+					"Top": 900,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 900
+		},
+		{
+			"Words": [
+				{
+					"WordText": "054144943",
+					"Left": 623,
+					"Top": 934,
+					"Height": 14,
+					"Width": 82
+				}
+			],
+			"MaxHeight": 14,
+			"MinTop": 934
+		},
+		{
+			"Words": [
+				{
+					"WordText": "0982587179",
+					"Left": 619,
+					"Top": 954,
+					"Height": 13,
+					"Width": 92
+				}
+			],
+			"MaxHeight": 13,
+			"MinTop": 954
+		}
+	],
+	"HasOverlay": true,
+	"Message": "Total lines: 99"
+},
+"FileParseExitCode":1,
+"TextOrientation":0,
+"ParsedText":LOCALES 	DIRECCION 	TELCEL 	
+CARLOS A LÓPEZ C/ MCAL- 	0971422767 	
+GASTON CELL 	
+LÓPEZ 	0981315751 	
+FARMACIA PUNTO FARMA 	BVAR. AMOLAS ESO' CARLOS A. 	
+44877 	
+(Ybaroty) 	LÓPEZ 	
+MCAL. LÓPEZ ESO/ GRAL. 	
+FARMACIA FARMATITU 	4 i 043 	
+CABALLERO 	
+42176 	
+FARMACIA STA. MARIA 	COLÓN C/ CARLOS A. LÓPEZ 	40271 	
+40383 	
+FARMACIA STA. VICTORIA 	COLÓN ESQ/ GRAL. CABALLERO 	41 730 	
+FARMACIA STA. VICTORIA 	BVAR. ITURBE ESC)/ CURUPAYTY 	41 730 	
+EMA PRODUCTORA 	CURUPAYTY C/ GRAL. DIAZ 	0985613644 	
+CARLOS A. LÓPEZ ENTRE 	43848 	
+FINANCIERA EL COMERCIO 	
+CURUPAYTY Y COLON 	44555 	
+FINANCIERA INTERFISA 	HUMAITA C/ MCAL. ESTIGARRIBIA 	44528 	
+CARLOS A. LÓPEZ C/ ALEJO 	
+MARICEL NOVEDADES 	0994214098 	
+GARCíA 	
+JM COMERCIAL 	CHILE C/ ITA YBATE 	0976456665 	
+RUIZ D. DE MELGAREJO C/ 	
+FABY CEL 	0971703202 	
+GREGORIO BENITEZ 	
+NANNY SHOP 	CARLOS A. LÓPEZ C/ COLÓN 	0981453251 	
+PAPELERIA PAPELEX 	PAI ANASAGASTI C/ COMUNEROS 	0981348694 	
+AVDA. C. LAMBARÉ 3969 C/ D. 	
+IRC INFORMATICA 	
+ORTIZ 	
+RUIZ .D. MELGAREJO C/ 	
+CRISTAL LENTES 	44785 	
+NATALICIO TALAVERA 	
+G. BENITEZ ESQ/ RUIZ D. 	
+AGENCIA BUENOS VIAJES 	
+MELGAREJO 	
+CLICK CELL 	COLÓN C/ CARLOS A. LÓPEZ 	
+DESPENSA JESSICA 	MCAL. ESTIGARRIBIA Y AZARA 	40795 	
+BVAR. AMOLAS Y GREGORIO 	
+DESPENSA N.F. 	0984365650 	
+BENITEZ 	
+MCAL. ESTIGARRIBIA Y 	
+TECNOMUNDO 	0976406748 	
+GREGORIO BENITEZ 	
+ELECTRO INFO 	HERNANDARIAS Y HUMAITA 	44713 	
+LIBRERIA CINDY MARIA 	MCAL. LÓPEZ 858 	40070 	
+SMVG EMPRENDIMIENTO 	ESTERO BELLACO Y PERU 	40645 	
+COMERCIAL SAN JOSÉ 	0971306984 	
+14 DE MAYO C/ JOAQUIN 	
+PATO CELL 	0983700700 	
+ESTIGARRIBIA 	
+DESPENSA LUIS 	054144943 	
+BVAR. YEGROS C/ BVAR. ITURBE 	
+FERNANDO 	0982587179 	
+,"ErrorMessage":"",
+"ErrorDetails":""
+},
+],
+"OCRExitCode":"1",
+"IsErroredOnProcessing":"false",
+"ErrorMessage":"undefined",
+"ErrorDetails":"undefined",
+"ProcessingTimeInMilliseconds":"5.711",
+"SearchablePDFURL":"Searchable PDF not generated as it was not requested."
+}
