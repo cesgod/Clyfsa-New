@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CLYFSA | Consulta de Facturas</title>
+    <title>CLYFSA | APP</title>
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
@@ -23,21 +23,16 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
     <!--Theme Styles CSS-->
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 
     <!--Theme Styles CSS-->
     <link href="../../../css/custom.css" media="all" rel="stylesheet" type="text/css"/>
-
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-        if (screen.width <= 1024) window.location.replace("factcm.php")
-    </script>
-
+    <script src="https://kit.fontawesome.com/db5df82b13.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -52,96 +47,13 @@
     <?php include './components/headers/header-menu.php'; ?>
     <!-- End Header_Area -->
 
-    <!-- Banner area -->
-
-    <!-- End Banner area -->
-
     <!-- Not Found area -->
     <section class="not_found_area">
-        <h2><b>Consulta</b></h2><h3>Detalle de Consumo</h3>
-        <br>
-
-        <img src="images/bill.svg" style="max-width: 80px">
-        <br><br>
-        <p>Ingrese correctamente sus datos para acceder a su factura</p>
-
-<br><hr><br>
-
-<div style="display: inline-block; width: 100%; margin: auto; height: 500px;">
-    <div style="float: left; width: 40%; padding-left: 70px">
-        <img src="images/inv.jpg" width="500px" ">
-        <br><br>
-        <p><b>Consultá una factura anterior para obtener los datos necesarios</b></p>
-    </div>
-    <div style="float: left; text-align: center; width: 50%; padding-right: 10px; padding-right: 50px;">
-        <form action="dashboard/assets/php/exoxc.php" class="search_error" method="post">
-
-            <br>
-            <h3>Introducir su código de usuario</h3>
-            <input type="number" name="userd" class="form-control" placeholder="Código de Usuario" min="1" max="99999" required >
-
-        <br>
-        <input type="number" name="nromed" class="form-control" placeholder="Ingrese los 4 últimos números de su medidor" maxlength="4" required>
-
-        <br>
-        <div class="row">
-
-            <div class="col-md-3"><select name="prefcelular" id="prefcelular" class="form-control" style="height: 46px" required>
-                        <option>0991</option>
-                        <option>0992</option>
-                        <option>0993</option>
-                        <option>0994</option>
-                        <option>0995</option>
-                        <option>0996</option>
-                        <option>0997</option>
-                        <option>0998</option>
-                        <option>0999</option>
-                        <option>0961</option>
-                        <option>0962</option>
-                        <option>0963</option>
-                        <option>0964</option>
-                        <option>0965</option>
-                        <option>0967</option>
-                        <option>0968</option>
-                        <option>0969</option>
-                        <option>0971</option>
-                        <option>0972</option>
-                        <option>0973</option>
-                        <option>0974</option>
-                        <option>0975</option>
-                        <option>0976</option>
-                        <option>0977</option>
-                        <option>0978</option>
-                        <option>0979</option>
-                        <option>0981</option>
-                        <option>0982</option>
-                        <option>0983</option>
-                        <option>0984</option>
-                        <option>0985</option>
-                        <option>0986</option>
-                        <option>0987</option>
-                        <option>0988</option>
-                        <option>0989</option>
-
-                    </select>
-            </div>
-            <div class="col-md-9">
-
-            <input type="text" name="tel" class="form-control" placeholder="Ingrese el número de Celular" maxlength="6" required>
-            </div>
-            </div>
-
-
-
-
-
-
-
-        <button class="btn btn-primary" type="submit" style="width: 300px">Consultar</button><br><br>
-        </form>
-    </div>
-</div>
-
+        <h2>DESCARGAR <i class="fab fa-android"></i></h2>
+        <p>Disponible para Android</p><br>
+        <a href="app/app.apk" download>
+        <button class="btn btn-success" type="submit" style="width: 350px; height: 100px"><i class="fas fa-download" style="font-size: 40px"></i></button>
+        </a>
 		<!--No tiene una cuenta? <a href="#reg"><h3 id="reg">REGÍSTRATE</h3></a><br><br>
 <br >
 <br>

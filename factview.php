@@ -35,10 +35,10 @@ session_start();
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    
-    
-    
-    
+
+
+
+
 </head>
 <body>
     <!-- Preloader -->
@@ -101,9 +101,9 @@ session_start();
                             </ul>-->
                         </li>
                         <li class="dropdown submenu">
-                            <a href="about.html">Empresa</a>
+                            <a href="about.php">Empresa</a>
                             <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="about.php">About Us</a></li>
                                 <li><a href="about-2.html">About Us-2</a></li>
                             </ul>-->
                         </li>
@@ -114,24 +114,24 @@ session_start();
                                 <li><a href="services-2.html">Services-2</a></li>
                             </ul>-->
                         </li>
-                        <li><a href="forms.html">Formularios</a></li>
+                        <li><a href="forms.php>Formularios</a></li>
                         <!--<li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
+
                                 <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
+                                <li><a href="blog-2.php>Prevensiówn y recuperación</a></li>
+
                         </li>-->
                          <li  class="dropdown submenu">
                          <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Sistemas de Distribución</a>
-                         
+
                            <ul class="dropdown-menu other_dropdwn">
-                           		<li><a href="planning.html">Planificación</a></li>
-                                <li><a href="blog-2.html">Mercado y Operaciones</a></li>
-                                <li><a href="maps.html">Mapas</a></li>
+                           		<li><a href="planning.php>Planificación</a></li>
+                                <li><a href="blog-2.php>Mercado y Operaciones</a></li>
+                                <li><a href="maps.php">Mapas</a></li>
                            </ul>
                          </li>
-                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                         <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -141,7 +141,7 @@ session_start();
 	<!-- End Header_Area -->
 
     <!-- Banner area -->
-   
+
     <!-- End Banner area -->
 
     <!-- Not Found area -->
@@ -155,17 +155,17 @@ session_start();
         <!--<p>Debe descargar e instalar la fuente para poder visualizar el código de barra de la factura</p><br>
         <a href="images/ConnectCode39.ttf" download class="btn btn-info" style="width: 500px"><h3>DESCARGAR <i class="far fa-file-word"></i></h3></a>-->
 
-        
- 
+
+
 
 
 <br>
 <br>
 
 		</section>
-        
-        
-      
+
+
+
     </section>
     <!-- End Not Found area -->
 
@@ -175,7 +175,7 @@ session_start();
             <div class="footer_row row">
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>ACERCA DE CLYFSA</h2>
-                    <img src="images/logo.png" alt="" width="70%"> 
+                    <img src="images/logo.png" alt="" width="70%">
                     <p>La Compañía de Luz y Fuerza S.A. fué fundada en el año 1953. <br>Es una Compañía de distribución de energía eléctrica que suministra a más de 16.000 clientes en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
                     <ul class="socail_icon">
                        	<li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
@@ -187,13 +187,13 @@ session_start();
                 <div class="col-md-3 col-sm-6 footer_about quick">
                     <h2>Accesos</h2>
                     <ul class="quick_link">
-                        <li><a href="about.html"><i class="fa fa-chevron-right"></i>Empresa</a></li>
-                        <li><a href="forms.html"><i class="fa fa-chevron-right"></i>Formularios</a></li>
-                        <li><a href="pagos.html"><i class="fa fa-chevron-right"></i>Pagos</a></li>
-                        <li><a href="reports.html"><i class="fa fa-chevron-right"></i>Reportes</a></li>
-                        <li><a href="planning.html"><i class="fa fa-chevron-right"></i>Planificación</a></li>
-                        <li><a href="contact.html"><i class="fa fa-chevron-right"></i>Contacto</a></li>
-                        
+                        <li><a href="about.php"><i class="fa fa-chevron-right"></i>Empresa</a></li>
+                        <li><a href="forms.php><i class="fa fa-chevron-right"></i>Formularios</a></li>
+                        <li><a href="pagos.php"><i class="fa fa-chevron-right"></i>Pagos</a></li>
+                        <li><a href="reportes.php"><i class="fa fa-chevron-right"></i>Reportes</a></li>
+                        <li><a href="planning.php><i class="fa fa-chevron-right"></i>Planificación</a></li>
+                        <li><a href="contacto.php"><i class="fa fa-chevron-right"></i>Contacto</a></li>
+
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 footer_about" style="padding-top: 10px">
@@ -206,7 +206,7 @@ session_start();
                             <li><a href="tel:+59554142679"><i class="fa fa-whatsapp" aria-hidden="true"></i>(+595) 982 305 305</a></li>
                             <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Capitán Demattei y Presidente Franco</span></a></li>
                             <li><a href="#"><i class="" aria-hidden="true"></i>       Villarrica - Paraguay</></a></li>
-                            
+
                     </address>
                 </div>
             </div>

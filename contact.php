@@ -15,12 +15,12 @@ $file=$fichero.$solicitud.".pdf";
 
 if (($name=="")||($lastn=="")||($email=="")||($city=="")||($barrio=="")||($solicitud==""))
 {
-	echo "Todos los campos son necesarios, complete <a href=\"\">el formulario</a> de nuevo.";  
+	echo "Todos los campos son necesarios, complete <a href=\"\">el formulario</a> de nuevo.";
 }else{
 		$link = '<a href="http://clyfsa.com'.$file.'" target="_blank"><font color="#ffffff" size="5" face="Arial Black"><img src="http://clyfsa.com/images/download-solid.png" width="5%">DESCARGAR SOLICITUD</font></a>';
-		
+
 		$headers  = 'MIME-Version: 1.0' . "\r\n";
-		$headers .= "Content-Type: text/html; charset=UTF-8\r\n";			
+		$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 		$headers .="From: $name<$email>\r\nReturn-path: $email";
 		$message = '<html><body>';
 		$message .= "<br>\n<table cellspacing='0' cellpadding='5' border='0' align='center' bgcolor='#eeeeee' width='100%' style='max-width: 1000px;'>";
@@ -42,8 +42,8 @@ if (($name=="")||($lastn=="")||($email=="")||($city=="")||($barrio=="")||($solic
 $subject="Mensaje enviado desde formulario Web $name";
 //mail("cesarveramatz@gmail.com", $subject, $message, $headers);
 mail($email, $subject, $message, $headers);
-//$loc = "https://randomwsite.000webhostapp.com/forms.html";
-$loc = "forms.html";
+//$loc = "https://randomwsite.000webhostapp.com/forms.php";
+$loc = "forms.php";
 echo $message;
 #header("Location: $loc");
 die(0);}

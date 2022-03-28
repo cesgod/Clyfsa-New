@@ -1,0 +1,166 @@
+.top_header_area {
+    .menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .top_nav {
+            display: flex;
+            a {
+                color: white;
+                margin-right: 1.5rem;
+                i {
+                    margin-right: .3rem;
+                }
+            }
+        }
+        .social_nav {
+            display: flex;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            a {
+                font-size: 20px;
+                color: white;
+                margin-left: 1.5rem;
+            }
+        }
+    }
+}
+
+.footer_area {
+    .social-icon {
+        display: flex;
+        margin-top: 2rem;
+        align-items: center;
+        a {
+            font-size: 35px;
+            color: white;
+            margin-right: 2rem;
+        }
+    }
+
+    .quick {
+        .quick-link {
+            display: flex;
+            flex-direction: column;
+            padding-left: 1rem;
+            a {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                color: white;
+            }
+        }
+    }
+
+    .my-address {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        a {
+            font-size: 2rem;
+            color: white;
+            margin-bottom: 1rem;
+            span {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+.contact_map iframe {
+    height: 350px;
+    width: 80%;
+}
+
+.contacto {
+    padding-top: 3rem;
+
+    h2 {
+        margin-bottom: 2rem;
+        position: relative;
+        padding-bottom: 2rem;
+        &::after {
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 80px;
+            background: #008bb9;
+            left: 0;
+            bottom: 0;
+        }
+    }
+    .input_box {
+        width: 100%;
+        border: 1px solid #dfe3e4;
+        border-radius: 0;
+        box-shadow: none;
+        outline: none;
+        height: 50px;
+        padding-left: 15px;
+        color: #444444;
+        margin-bottom: 20px;
+    }
+
+    button {
+        font: 400 14px/40px "Roboto", sans-serif;
+        background: #008bb9;
+        width: 140px;
+        color: #222222;
+        border: 0;
+        border-radius: 0;
+        text-transform: uppercase;
+    }
+
+    .contact_map iframe {
+        height: 350px;
+        width: 100%;
+    }
+
+    .social-icon {
+        display: flex;
+        margin-top: 2rem;
+        align-items: center;
+        a {
+            font-size: 25px;
+            color: #555555;
+            margin-right: 2rem;
+        }
+    }
+
+    .addresses {
+        margin-bottom: 2rem;
+        .address-item {
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            a {
+                padding-right: 3rem;
+            }
+            span {
+                font-weight: bolder;
+                color: #555555;
+            }
+        }
+    }
+}
+
+.paga-aqui {
+    position: fixed;
+    width: auto;
+    background: #008bb9;
+    padding: 14px 23px;
+    color: #ffffff;
+    font-size: 14px;
+    top: 30%;
+    right: -123px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    z-index: 10000;
+    font-family: sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    &:hover {
+        color: white;
+    }
+}

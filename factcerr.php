@@ -36,9 +36,9 @@
     <script type="text/javascript">
         if (screen.width <= 1024) window.location.replace("factcerrm.php")
     </script>
-    
-    
-    
+
+
+
 </head>
 <body>
     <!-- Preloader -->
@@ -101,9 +101,9 @@
                             </ul>-->
                         </li>
                         <li class="dropdown submenu">
-                            <a href="about.html">Empresa</a>
+                            <a href="about.php">Empresa</a>
                             <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="about.php">About Us</a></li>
                                 <li><a href="about-2.html">About Us-2</a></li>
                             </ul>-->
                         </li>
@@ -114,24 +114,24 @@
                                 <li><a href="services-2.html">Services-2</a></li>
                             </ul>-->
                         </li>
-                        <li><a href="forms.html">Formularios</a></li>
+                        <li><a href="forms.php">Formularios</a></li>
                         <!--<li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
+
                                 <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
+                                <li><a href="blog-2.php>Prevensiówn y recuperación</a></li>
+
                         </li>-->
                          <li  class="dropdown submenu">
                          <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Sistemas de Distribución</a>
-                         
+
                            <ul class="dropdown-menu other_dropdwn">
-                           		<li><a href="planning.html">Planificación</a></li>
-                                <li><a href="blog-2.html">Mercado y Operaciones</a></li>
-                                <li><a href="maps.html">Mapas</a></li>
+                           		<li><a href="planning.php">Planificación</a></li>
+                                <li><a href="blog-2.php>Mercado y Operaciones</a></li>
+                                <li><a href="maps.php">Mapas</a></li>
                            </ul>
                          </li>
-                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                         <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -141,7 +141,7 @@
 	<!-- End Header_Area -->
 
     <!-- Banner area -->
-   
+
     <!-- End Banner area -->
 
     <!-- Not Found area -->
@@ -152,7 +152,7 @@
         <img src="images/bill.svg" style="max-width: 80px">
         <br><br>
         <p>Ingrese correctamente sus datos para acceder a su factura</p>
-        
+
 <br><hr><br>
 
 <div style="display: inline-block; width: 100%; margin: auto; height: 500px;">
@@ -163,20 +163,20 @@
     </div>
     <div style="float: left; text-align: center; width: 50%; padding-right: 10px; padding-right: 50px;">
         <form action="dashboard/assets/php/exoxc.php" class="search_error" method="post">
-             <?php 
-                
+             <?php
+
                 echo '<h4 style="color:red;">'.$_SESSION['msgerror'].'</h4><br>';
-        
-            
+
+
             ?>
             <br>
             <h3>Introducir su código de usuario</h3>
 
             <input type="number" name="userd" class="form-control" placeholder="Código de Usuario" min="1" max="99999" required >
-           
+
         <br>
         <input type="number" name="nromed" class="form-control" placeholder="Ingrese los 4 últimos números de su medidor" maxlength="4" required>
-           
+
         <br>
         <div class="row">
 
@@ -216,21 +216,21 @@
                         <option>0987</option>
                         <option>0988</option>
                         <option>0989</option>
-                        
+
                     </select>
             </div>
             <div class="col-md-9">
-        
+
             <input type="text" name="tel" class="form-control" placeholder="Ingrese el número de Celular" maxlength="6" required>
             </div>
             </div>
-       
 
-       
 
-       
-       
-        
+
+
+
+
+
         <button class="btn btn-primary" type="submit" style="width: 300px">Consultar</button><br><br>
         </form>
     </div>
@@ -265,7 +265,7 @@
         -
       </div>
     </div>
-   
+
   </div>
   <div class="form-row">
     <div class="col-md-3 mb-3">
@@ -282,7 +282,7 @@
         -
       </div>
     </div>
-   
+
     <div class="col-md-3 mb-3">
       <label for="validationCustom05">Email</label>
       <input type="text" class="form-control" id="validationCustom05" placeholder="email" required name="email">
@@ -295,24 +295,24 @@
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
       <label class="form-check-label" for="invalidCheck">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>  Acepto los Términos y Condiciones 
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>  Acepto los Términos y Condiciones
       </label>
-      
+
     </div><br>
 
      <button class="btn" type="submit" >Enviar Solicitud</button>
   </div>
 			 </div>-->
- 
+
 
 
 <br>
 <br>
 
 		</section>
-        
-        
-      
+
+
+
     </section>
     <!-- End Not Found area -->
 
@@ -322,7 +322,7 @@
             <div class="footer_row row">
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>ACERCA DE CLYFSA</h2>
-                    <img src="images/logo.png" alt="" width="70%"> 
+                    <img src="images/logo.png" alt="" width="70%">
                     <p>La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
                     <ul class="socail_icon">
                        	<li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
@@ -334,13 +334,13 @@
                 <div class="col-md-3 col-sm-6 footer_about quick">
                     <h2>Accesos</h2>
                     <ul class="quick_link">
-                        <li><a href="about.html"><i class="fa fa-chevron-right"></i>Empresa</a></li>
-                        <li><a href="forms.html"><i class="fa fa-chevron-right"></i>Formularios</a></li>
-                        <li><a href="pagos.html"><i class="fa fa-chevron-right"></i>Pagos</a></li>
-                        <li><a href="reports.html"><i class="fa fa-chevron-right"></i>Reportes</a></li>
-                        <li><a href="planning.html"><i class="fa fa-chevron-right"></i>Planificación</a></li>
-                        <li><a href="contact.html"><i class="fa fa-chevron-right"></i>Contacto</a></li>
-                        
+                        <li><a href="about.php"><i class="fa fa-chevron-right"></i>Empresa</a></li>
+                        <li><a href="forms.php"><i class="fa fa-chevron-right"></i>Formularios</a></li>
+                        <li><a href="pagos.php"><i class="fa fa-chevron-right"></i>Pagos</a></li>
+                        <li><a href="reportes.php"><i class="fa fa-chevron-right"></i>Reportes</a></li>
+                        <li><a href="planning.php"><i class="fa fa-chevron-right"></i>Planificación</a></li>
+                        <li><a href="contacto.php"><i class="fa fa-chevron-right"></i>Contacto</a></li>
+
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 footer_about">

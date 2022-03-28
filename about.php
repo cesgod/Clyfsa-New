@@ -23,6 +23,9 @@
     <!--Theme Styles CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 
+    <!--Theme Styles CSS-->
+    <link href="../../../css/custom.css" media="all" rel="stylesheet" type="text/css"/>
+
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
@@ -33,101 +36,12 @@
     <!-- Preloader -->
     <div class="preloader"></div>
 
-	<!-- Top Header_Area -->
-	<section class="top_header_area">
-	    <div class="container">
-            <ul class="nav navbar-nav top_nav">
-                <li><a href="tel:+59554142679"><i class="fa fa-phone"></i>(595) 541 42 679</a></li>
-               	<li><a href="mailto:clyfsa@clyfsa.com"><i class="fa fa-envelope-o"></i>clyfsa@clyfsa.com</a></li>
-               <!-- <li><a href="#"><i class="fa fa-clock-o"></i>Lun - Vie 07:00 - 17:00</a></li>-->
-            </ul>
-            <ul class="nav navbar-nav navbar-right social_nav">
-                <li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i>
-                </a></li>
-                <li><a href="https://www.facebook.com/clyfsa/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.instagram.com/clyfsa/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/company/clyfsa" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            </ul>
-	    </div>
-	</section>
-	<!-- End Top Header_Area -->
-
-	<!-- Header_Area -->
-    <nav class="navbar navbar-default header_aera" id="main_navbar">
-        <div class="container">
-            <!-- searchForm -->
-            <div class="searchForm">
-                <form action="#" class="row m0">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                        <input type="search" name="search" class="form-control" placeholder="Escriba y presione Enter">
-                        <span class="input-group-addon form_hide"><i class="fa fa-times"></i></span>
-                    </div>
-                </form>
-            </div><!-- End searchForm -->
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="col-md-2 p0">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/0logo.png" alt="" class="imglogo"></a>
-                </div>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="col-md-10 p0">
-                <div class="collapse navbar-collapse" id="min_navbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown submenu">
-                            <a href="index.html">Inicio</a>
-                            <!--<ul class="dropdown-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="index-2.html">Home 2</a></li>
-                            </ul>-->
-                        </li>
-                        <li class="dropdown submenu">
-                            <a href="about.html">Empresa</a>
-                            <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about-2.html">About Us-2</a></li>
-                            </ul>-->
-                        </li>
-                        <li class="dropdown submenu">
-                            <a href="clientes.html">Clientes</a>
-                            <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="services-2.html">Services-2</a></li>
-                            </ul>-->
-                        </li>
-                        <li><a href="forms.html">Formularios</a></li>
-                        <!--<li class="dropdown submenu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
-                                <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
-                        </li>-->
-                         <li  class="dropdown submenu">
-                         <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Sistemas de Distribución</a>
-                         
-                           <ul class="dropdown-menu other_dropdwn">
-                           		<li><a href="planning.html">Planificación</a></li>
-                                <li><a href="blog-2.html">Mercado y Operaciones</a></li>
-                                <li><a href="maps.html">Mapas</a></li>
-                           </ul>
-                         </li>
-                        <li><a href="contact.html">Contacto</a></li>
-                        <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div>
-        </div><!-- /.container -->
-    </nav>
-	<!-- End Header_Area -->
+    <!-- Top Header_Area -->
+    <?php include './components/headers/header-top.php'; ?>
+    <!-- End Top Header_Area -->
+    <!-- Header_Area -->
+    <?php include './components/headers/header-menu.php'; ?>
+    <!-- End Header_Area -->
 
     <!-- Banner area -->
     <!--<section class="banner_area" data-stellar-background-ratio="0.5">
@@ -154,8 +68,8 @@
                         <h2>Quiénes Sómos</h2>
                     </div>
                     <p align="justify">Fundada en 1953 y siendo puesta en marcha como respuesta a necesidades colectivas de la población civil de Villarrica, se dio origen a CLYFSA: la primera empresa privada de distribución de energía eléctrica en Paraguay.
-La virtud de concretar una propuesta de dicha naturaleza confiere a CLYFSA la potestad de definir sus propios objetivos y metas en cuanto a lo que ejecución de políticas de regulación y distribución de energía eléctrica se trata; encontrándose el marco regulatorio limitado y la legislación actual no prevé delegar a personas físicas o empresas privadas la concesión de distribución de energía. 
-CLYFSA se erigió como una apuesta planteada ante las exigencias propias de la época en que fue concebida su creación, plasmando la visión de los socios fundadores en los resultados que se fueron obteniendo a lo largo de los 66 años de funcionamiento. 
+La virtud de concretar una propuesta de dicha naturaleza confiere a CLYFSA la potestad de definir sus propios objetivos y metas en cuanto a lo que ejecución de políticas de regulación y distribución de energía eléctrica se trata; encontrándose el marco regulatorio limitado y la legislación actual no prevé delegar a personas físicas o empresas privadas la concesión de distribución de energía.
+CLYFSA se erigió como una apuesta planteada ante las exigencias propias de la época en que fue concebida su creación, plasmando la visión de los socios fundadores en los resultados que se fueron obteniendo a lo largo de los 66 años de funcionamiento.
 
                    </p>
 					<br>
@@ -166,36 +80,36 @@ CLYFSA se erigió como una apuesta planteada ante las exigencias propias de la �
 <br>
 
                 <h3>Actores preponderantes en el sector energético nacional</h3>
-                   
+
                     <p align="justify">Con disponibilidad de 60 MVA de capacidad de transformación de energía, abastecemos a más de 15,000 usuarios de energía eléctrica con los más altos estándares de calidad y robustez. Los niveles de crecimiento de la demanda de energía por parte de usuarios finales constituyen una tendencia a la suba del orden de aproximadamente 8% por periodo de ciclo anual.
 
 Ser considerados como una de las empresas con mayores índices de eficiencia y óptimo cumplimiento con políticas de impacto socio-económico constituye un privilegio del cual CLYFSA se encuentra orgulloso de contar. La posibilidad de ejercer responsablemente dicho privilegio constituye una satisfacción que comparten los Directivos, usuarios, y funcionarios afectados a los servicios prestados por parte de la empresa.
-Los servicios de atención al cliente son brindados 24/7. La asistencia brindada a los usuarios de forma breve e integral constituye uno de los pilares de nuestras políticas de gestión empresarial. 
+Los servicios de atención al cliente son brindados 24/7. La asistencia brindada a los usuarios de forma breve e integral constituye uno de los pilares de nuestras políticas de gestión empresarial.
 
                     </p>
                         <h3>Visión estratégica y de vanguardia</h3>
                     <p align="justify">El principal desafío de las empresas del sector eléctrico consiste en hacer realidad un cambio de paradigma que estudie a la vez que proponga desafíos reales a las redes de distribución de energía eléctrica del modelo de gestión pasiva y convencional, y las eleve al status de Redes Eléctricas Inteligentes. La gestión activa de la demanda de energía eléctrica requiere estrategias de planificación de avanzada agudeza para conectar los procesos con las debidas gestiones. La visión estratégica y vanguardista de CLYFSA permite que la compañía se sitúe como líder y pionera en la región de Latinoamérica principalmente en la implementación de plataformas y herramientas tecnológicas.</p>
-                    
+
                     <h3>Infraestructura de medición avanzada (A.M.I.)</h3>
                     <p align="justify">En el año 2018, se dio inicio al proyecto de implementación de Infraestructuras de Medición Avanzada, la cual permite realizar en interacción con los medidores inteligentes de energía eléctrica de forma automática y remota las acciones de lectura, corte, reconexión, control de carga, y numerosas funciones adicionales. Al momento de introducir elementos de alto nivel de sofisticación, la interacción – entre usuarios, componentes del sistema eléctrico, y las interfaces del operador –  permite que el estudio de los datos relacionados al consumo de energía profundice las labores de constante mejoramiento y optimización de la red eléctrica en su totalidad. </p>
-                    
+
                     <h3>Puntos de iluminación LED</h3>
                     <p align="justify">Diversos proyectos realizados y planificados dan cuenta de que CLYFSA enfoca sus prioridades en ofrecer al usuario servicios que puedan ellos percibir como distinguidos y de elevado rigor técnico; prueba de ello son los Alumbrados Públicos compuestos al 100% por Diodos Emisores de Luz (LED), los cuales exitosamente se tradujeron en mejoras al sistema de iluminación vial de la ciudad, consistente en aproximadamente 3000 puntos de iluminación.</p>
-                    
+
                      <h3>Movilidad Eléctrica</h3>
                     <p align="justify">Una mirada a las principales metas propuestas por las potencias energéticas globales demuestra que la Movilidad Eléctrica se trata no solamente de una realidad y una necesidad, sino de una prioridad que va en aumento, y las industrias del sector eléctrico deben acompañar el desarrollo previsto por las políticas de carácter regional y nacional al respecto; por su parte – y en su momento – CLYFSA ha propuesto a organismos de trayectoria multi-nacional la creación de mesas de trabajo para cooperar con la inserción de la movilidad sostenible al plano terrestre, y poniéndose a disposición para eventuales acuerdos a tratar. </p>
-                    
+
                      <h3>Generación y almacenamiento de energía</h3>
-                    <p align="justify">Haciendo una revisión a la historia de la fundación se evidencia que cuando CLYFSA fue puesta en marcha, la misma distribuía energía eléctrica que en aquel entonces era generada por grupos electrógenos; la importancia de mantener la visión los fundadores fue tal, que el interés por generar y almacenar energía sigue constituyendo un área de estudios de muy grande relevancia para la operación de la compañía. 
+                    <p align="justify">Haciendo una revisión a la historia de la fundación se evidencia que cuando CLYFSA fue puesta en marcha, la misma distribuía energía eléctrica que en aquel entonces era generada por grupos electrógenos; la importancia de mantener la visión los fundadores fue tal, que el interés por generar y almacenar energía sigue constituyendo un área de estudios de muy grande relevancia para la operación de la compañía.
 Varios ciclos de capacitaciones a funcionarios y asesores de CLYFSA arrojaron como resultado que el cambio de paradigma de las empresas eléctricas plantea como uno de sus pilares a las políticas de almacenamiento y generación distribuida de energía. Las plataformas tecnológicas, los mecanismos de financiación, y las políticas de regulación representan los principales desafíos a ser tratados por las industrias del sector eléctrico cuando de implementación de labores de generación y almacenamiento se trata.
 Asimismo, el seguimiento a los avances presentados a nivel global dan de cuenta que indistintamente al tipo de tecnología a ser utilizado (Solar Fotovoltaica, Solar Térmica, Eólica, Incineración u Oxi-reduccion de residuos, etc), las políticas energéticas deben integrar todas las aristas envueltas en condiciones óptimas para su ejecución.
 </p>
-                    
+
                     <h3>Cómputo y procesamiento masivo de datos</h3>
-                    <p align="justify">La diversificación del mercado eléctrico presenta escenarios que son objeto de estudio para el cumplimiento de reglas de negocios de empresas pertenecientes a distintos rubros; recientemente CLYFSA se ha interiorizado sobre la naturaleza del funcionamiento de las industrias que se dedican al procesamiento masivo de datos, así como también al cómputo de criptocurrencias. 
+                    <p align="justify">La diversificación del mercado eléctrico presenta escenarios que son objeto de estudio para el cumplimiento de reglas de negocios de empresas pertenecientes a distintos rubros; recientemente CLYFSA se ha interiorizado sobre la naturaleza del funcionamiento de las industrias que se dedican al procesamiento masivo de datos, así como también al cómputo de criptocurrencias.
 La naturaleza del consumo de energía de este tipo de industrias describe un comportamiento particularmente interesante para CLYFSA; los registros de Flat Demand representan oportunidades únicas para equilibrar el consumo total de energía eléctrica de la ciudad, desplazando bloques de consumo de los horarios pico de consumo a los valles de consumo</p>
-                
-                
+
+
             </div>
         </div>
     </section>
@@ -207,15 +121,15 @@ La naturaleza del consumo de energía de este tipo de industrias describe un com
             <h2>(595) 541 42 679</h2>
             <p>Contactoenos. Para consultas o Reclamos.</p>
             <div class="call_btn">
-                <a href="contact.html" class="button_all">CONTACTO</a>
+                <a href="contacto.php" class="button_all">CONTACTO</a>
                 <a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." class="button_all">CONSULTAS</a>
             </div>
         </div>
-        
+
     </section>
     <!-- End call Area -->
 
-    <!-- Our Features Area 
+    <!-- Our Features Area
     <section class="our_feature_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -358,56 +272,9 @@ La naturaleza del consumo de energía de este tipo de industrias describe un com
     </section>
     <!-- End Our Team Area -->
 
+
     <!-- Footer Area -->
-    <footer class="footer_area">
-        <div class="container">
-            <div class="footer_row row">
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2>ACERCA DE CLYFSA</h2>
-                    <img src="images/logo.png" alt="" width="70%"> 
-                    <p>La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
-                    <ul class="socail_icon">
-                       	<li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.facebook.com/clyfsa/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about quick">
-                    <h2>Accesos</h2>
-                    <ul class="quick_link">
-                        <li><a href="about.html"><i class="fa fa-chevron-right"></i>Empresa</a></li>
-                        <li><a href="forms.html"><i class="fa fa-chevron-right"></i>Formularios</a></li>
-                        <li><a href="pagos.html"><i class="fa fa-chevron-right"></i>Pagos</a></li>
-                        <li><a href="reports.html"><i class="fa fa-chevron-right"></i>Reportes</a></li>
-                        <li><a href="planning.html"><i class="fa fa-chevron-right"></i>Planificación</a></li>
-                        <li><a href="contact.html"><i class="fa fa-chevron-right"></i>Contacto</a></li>
-                        
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2> </h2>
-                    <a href="#" class="twitter"> </a>
-                    <a href="#" class="twitter"></a>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2>CONTACTO</h2>
-                    <address>
-                        <p>Para consultas o reclamos:</p>
-                        <ul class="my_address">
-                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>clyfsa@clyfsa.com</a></li>
-                            <li><a href="tel:+59554142679"><i class="fa fa-phone" aria-hidden="true"></i>(595) 541 42 679</a></li>
-                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Capitán Demattei y Presidente Franco
-Villarrica, PARAGUAY </span></a></li>
-                        </ul>
-                    </address>
-                </div>
-            </div>
-        </div>
-        <div class="copyright_area">
-            Copyright 2017 All rights reserved. Designed by <a href="http://craconsulting.group">CRA.</a>
-        </div>
-    </footer>
+    <?php include './components/footer/footer.php'; ?>
     <!-- End Footer Area -->
 
     <!-- jQuery JS -->

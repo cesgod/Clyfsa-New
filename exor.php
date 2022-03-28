@@ -33,10 +33,10 @@
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    
-    
-    
-    
+
+
+
+
 </head>
 <body>
     <!-- Preloader -->
@@ -99,9 +99,9 @@
                             </ul>-->
                         </li>
                         <li class="dropdown submenu">
-                            <a href="about.html">Empresa</a>
+                            <a href="about.php">Empresa</a>
                             <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="about.php">About Us</a></li>
                                 <li><a href="about-2.html">About Us-2</a></li>
                             </ul>-->
                         </li>
@@ -112,24 +112,24 @@
                                 <li><a href="services-2.html">Services-2</a></li>
                             </ul>-->
                         </li>
-                        <li><a href="forms.html">Formularios</a></li>
+                        <li><a href="forms.php">Formularios</a></li>
                         <!--<li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
+
                                 <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
+                                <li><a href="blog-2.php>Prevensiówn y recuperación</a></li>
+
                         </li>-->
                          <li  class="dropdown submenu">
                          <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Sistemas de Distribución</a>
-                         
+
                            <ul class="dropdown-menu other_dropdwn">
-                           		<li><a href="planning.html">Planificación</a></li>
-                                <li><a href="blog-2.html">Mercado y Operaciones</a></li>
-                                <li><a href="maps.html">Mapas</a></li>
+                           		<li><a href="planning.php>Planificación</a></li>
+                                <li><a href="blog-2.php>Mercado y Operaciones</a></li>
+                                <li><a href="maps.php>Mapas</a></li>
                            </ul>
                          </li>
-                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                         <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -139,7 +139,7 @@
 	<!-- End Header_Area -->
 
     <!-- Banner area -->
-   
+
     <!-- End Banner area -->
 
     <!-- Not Found area -->
@@ -152,36 +152,36 @@
         <h3><b>Usuario No. <?php echo $_SESSION['nrousu']; ?></b></h3>
         <br>
 
-        <?php 
+        <?php
         if ($_SESSION['conex']=='6524') {
             echo "<br><h3 style='color:green'>".$_SESSION['consumo']." kWh.</h3></h4><br>
             <form class='search_error' style='line-height : 22px;'>
-            
-                
-            <h5>Periodo: 
+
+
+            <h5>Periodo:
                 ".$_SESSION['mes']."  ".$_SESSION['anho'].
                 "
             </h5>
             <hr>
-            <h5>Fecha :  
+            <h5>Fecha :
                 ".$_SESSION['fechaVencimiento']."
             </h5>
              <hr>
-            <h5>Consumo Mes :  
+            <h5>Consumo Mes :
                 ".number_format($_SESSION['saldoMesActual'], 0, ',', '.')."
             </h5>
             <hr>
-            <h5>Deuda Pendiente :  
+            <h5>Deuda Pendiente :
                ".number_format($_SESSION['totalDeuda'], 0, ',', '.')."
             </h5>
             <hr>
-            <h5>Estado Factura :  
+            <h5>Estado Factura :
                ".$_SESSION['estadoFactura']."
             </h5>
             <br><br>
-           
-            
-            
+
+
+
         </form>
             <h4 style='color:green';margin-right: 5px; margin-left: 5px; line-height : 20px;>EL SUMINISTRO TIENE <br>LA EXONERACIÓN DE CONSUMO <br>SEGÚN LEY Nº 6524/20 <br>Y SU DECRETO N° 3506/20</h4>
             <form class='search_error' style='line-height : 22px;'><p style='text-align: justify; padding-right:15px; padding-left:15px'>El suministro podrá ser exonerado de no registrarse consumos superiores a 500 kWh en las facturas a ser emitidas en los meses de mayo y junio de 2020 respectivamente. Conceptos tales como: <b>facturas atrasadas de meses anteriores, cuotas y otros serán diferidos mensualmente en caso de no pago sin ningún tipo de recargos o intereses adicionales.</b></p>";
@@ -189,40 +189,40 @@
         }else{
             echo "<br><h3 style='color:red'>".$_SESSION['consumo']." kWh.</h3></h4><br>
             <form class='search_error' style='line-height : 22px;'>
-            
-                
-            <h5>Periodo: 
+
+
+            <h5>Periodo:
                 ".$_SESSION['mes']."  ".$_SESSION['anho'].
                 "
             </h5>
             <hr>
-            <h5>Fecha :  
+            <h5>Fecha :
                 ".$_SESSION['fechaVencimiento']."
             </h5>
              <hr>
-            <h5>Consumo Mes :  
+            <h5>Consumo Mes :
                 ".number_format($_SESSION['saldoMesActual'], 0, ',', '.')."
             </h5>
             <hr>
-            <h5>Deuda Pendiente :  
+            <h5>Deuda Pendiente :
                ".number_format($_SESSION['totalDeuda'], 0, ',', '.')."
             </h5>
             <hr>
-            <h5>Estado Factura :  
+            <h5>Estado Factura :
                ".$_SESSION['estadoFactura']."
             </h5>
             <br><br>
-           
-            
-            
+
+
+
         </form>
-        
+
             <h4 style='color:red';margin-right: 5px; margin-left: 5px; line-height : 20px;>EL SUMINISTRO NO TIENE <br>LA EXONERACIÓN DE CONSUMO <br>SEGÚN LEY Nº 6524/20 <br>Y SU DECRETO N° 3506/20</h4 >
             <form class='search_error' style='line-height : 22px;'><p style='text-align: justify; padding-right:15px; padding-left:15px'>El suministro podrá ser exonerado de no registrarse consumos superiores a 500 kWh en las facturas a ser emitidas en los meses de mayo y junio de 2020 respectivamente. Conceptos tales como: <b>facturas atrasadas de meses anteriores, cuotas y otros serán diferidos mensualmente en caso de no pago sin ningún tipo de recargos o intereses adicionales.</b></p>";
 
         }
 
-        
+
          ?>
          <br>
          <div class="" style="margin: auto;">
@@ -260,7 +260,7 @@
         -
       </div>
     </div>
-   
+
   </div>
   <div class="form-row">
     <div class="col-md-3 mb-3">
@@ -277,7 +277,7 @@
         -
       </div>
     </div>
-   
+
     <div class="col-md-3 mb-3">
       <label for="validationCustom05">Email</label>
       <input type="text" class="form-control" id="validationCustom05" placeholder="email" required name="email">
@@ -290,24 +290,24 @@
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
       <label class="form-check-label" for="invalidCheck">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>  Acepto los Términos y Condiciones 
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>  Acepto los Términos y Condiciones
       </label>
-      
+
     </div><br>
 
      <button class="btn" type="submit" >Enviar Solicitud</button>
   </div>
 			 </div>-->
- 
+
 
 
 <br>
 <br>
 
 		</section>
-        
-        
-      
+
+
+
     </section>
     <!-- End Not Found area -->
 
@@ -317,7 +317,7 @@
             <div class="footer_row row">
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>ACERCA DE CLYFSA</h2>
-                    <img src="images/logo.png" alt="" width="70%"> 
+                    <img src="images/logo.png" alt="" width="70%">
                     <p>La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
                     <ul class="socail_icon">
                        	<li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
@@ -329,13 +329,13 @@
                 <div class="col-md-3 col-sm-6 footer_about quick">
                     <h2>Accesos</h2>
                     <ul class="quick_link">
-                        <li><a href="about.html"><i class="fa fa-chevron-right"></i>Empresa</a></li>
-                        <li><a href="forms.html"><i class="fa fa-chevron-right"></i>Formularios</a></li>
-                        <li><a href="pagos.html"><i class="fa fa-chevron-right"></i>Pagos</a></li>
-                        <li><a href="reports.html"><i class="fa fa-chevron-right"></i>Reportes</a></li>
-                        <li><a href="planning.html"><i class="fa fa-chevron-right"></i>Planificación</a></li>
-                        <li><a href="contact.html"><i class="fa fa-chevron-right"></i>Contacto</a></li>
-                        
+                        <li><a href="about.php"><i class="fa fa-chevron-right"></i>Empresa</a></li>
+                        <li><a href="forms.php"><i class="fa fa-chevron-right"></i>Formularios</a></li>
+                        <li><a href="pagos.php"><i class="fa fa-chevron-right"></i>Pagos</a></li>
+                        <li><a href="reportes.php"><i class="fa fa-chevron-right"></i>Reportes</a></li>
+                        <li><a href="planning.php><i class="fa fa-chevron-right"></i>Planificación</a></li>
+                        <li><a href="contacto.php"><i class="fa fa-chevron-right"></i>Contacto</a></li>
+
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 footer_about">

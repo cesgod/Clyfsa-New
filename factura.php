@@ -30,10 +30,10 @@
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    
-    
-    
-    
+
+
+
+
 </head>
 <body>
     <!-- Preloader -->
@@ -96,9 +96,9 @@
                             </ul>-->
                         </li>
                         <li class="dropdown submenu">
-                            <a href="about.html">Empresa</a>
+                            <a href="about.php">Empresa</a>
                             <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="about.php">About Us</a></li>
                                 <li><a href="about-2.html">About Us-2</a></li>
                             </ul>-->
                         </li>
@@ -109,24 +109,24 @@
                                 <li><a href="services-2.html">Services-2</a></li>
                             </ul>-->
                         </li>
-                        <li><a href="forms.html">Formularios</a></li>
+                        <li><a href="forms.php>Formularios</a></li>
                         <!--<li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
+
                                 <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
+                                <li><a href="blog-2.php>Prevensiówn y recuperación</a></li>
+
                         </li>-->
                          <li  class="dropdown submenu">
                          <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Sistemas de Distribución</a>
-                         
+
                            <ul class="dropdown-menu other_dropdwn">
-                           		<li><a href="planning.html">Planificación</a></li>
-                                <li><a href="blog-2.html">Mercado y Operaciones</a></li>
-                                <li><a href="maps.html">Mapas</a></li>
+                           		<li><a href="planning.php">Planificación</a></li>
+                                <li><a href="blog-2.php>Mercado y Operaciones</a></li>
+                                <li><a href="maps.php>Mapas</a></li>
                            </ul>
                          </li>
-                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                         <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -136,23 +136,23 @@
 	<!-- End Header_Area -->
 
     <!-- Banner area -->
-   
+
     <!-- End Banner area -->
 
     <!-- Not Found area -->
-    
-    
+
+
 
     <section class="not_found_area">
         <h2>Consulte su Factura</h2>
         <p></p><br>
 
-       
+
 
         <a href="consultarm.html"><button class="btn btn-lg">Volver</button></a><br><br>
-       
+
         <hr>
-        
+
         <?php
 $nis=$_POST['nis'];
 $fichero="/facturas/";
@@ -164,7 +164,7 @@ $ban="yes";
 if ($nis=="")
 {
 	die();
-echo "Todos los campos son necesarios, ingrese de nuevo de nuevo.";  
+echo "Todos los campos son necesarios, ingrese de nuevo de nuevo.";
 $ban="no";
 }
 else{
@@ -177,31 +177,31 @@ else{
 		echo ($link);
 	}else{
 		echo ("NIS INCORRECTO, VUELVA A INGRESARLO");
-		
-		
-		
+
+
+
 	}
- 
+
 }
 
 ?>
-       <!-- <button class="btn-success" style="margin: 2px; width: 100%"><h3 style="color: aliceblue"><br><spam class="fa fa-download"> 
+       <!-- <button class="btn-success" style="margin: 2px; width: 100%"><h3 style="color: aliceblue"><br><spam class="fa fa-download">
     Descargar Factura <br><br>
 
 </h3></button>-->
-		
-		
-		
+
+
+
 		<br><br>
 
-		
+
 <br>
 <br>
 <br>
 
 
 <br>
-      
+
     </section>
     <!-- End Not Found area -->
 
@@ -211,7 +211,7 @@ else{
             <div class="footer_row row">
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>ACERCA DE CLYFSA</h2>
-                    <img src="images/logo.png" alt="" width="70%"> 
+                    <img src="images/logo.png" alt="" width="70%">
                     <p>La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
                     <ul class="socail_icon">
                        	<li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
@@ -223,13 +223,13 @@ else{
                 <div class="col-md-3 col-sm-6 footer_about quick">
                     <h2>Accesos</h2>
                     <ul class="quick_link">
-                        <li><a href="about.html"><i class="fa fa-chevron-right"></i>Empresa</a></li>
-                        <li><a href="forms.html"><i class="fa fa-chevron-right"></i>Formularios</a></li>
-                        <li><a href="pagos.html"><i class="fa fa-chevron-right"></i>Pagos</a></li>
-                        <li><a href="reports.html"><i class="fa fa-chevron-right"></i>Reportes</a></li>
-                        <li><a href="planning.html"><i class="fa fa-chevron-right"></i>Planificación</a></li>
-                        <li><a href="contact.html"><i class="fa fa-chevron-right"></i>Contacto</a></li>
-                        
+                        <li><a href="about.php"><i class="fa fa-chevron-right"></i>Empresa</a></li>
+                        <li><a href="forms.php><i class="fa fa-chevron-right"></i>Formularios</a></li>
+                        <li><a href="pagos.php"><i class="fa fa-chevron-right"></i>Pagos</a></li>
+                        <li><a href="reportes.php"><i class="fa fa-chevron-right"></i>Reportes</a></li>
+                        <li><a href="planning.php"><i class="fa fa-chevron-right"></i>Planificación</a></li>
+                        <li><a href="contacto.php"><i class="fa fa-chevron-right"></i>Contacto</a></li>
+
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 footer_about">

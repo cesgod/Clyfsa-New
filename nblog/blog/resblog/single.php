@@ -1,11 +1,11 @@
 <?php require("libs/fetch_data.php");?>
 <?php //code to get the item using its id
 include("database/conn.php");//database config file
-$id=$_REQUEST['id']; $query="SELECT * from blogs where id='".$id."'"; $result=mysqli_query($GLOBALS["___mysqli_ston"],$query) or die ( ((is_object($GLOBALS["___mysqli_ston"]))? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ?$___mysqli_res : true))); 
+$id=$_REQUEST['id']; $query="SELECT * from blogs where id='".$id."'"; $result=mysqli_query($GLOBALS["___mysqli_ston"],$query) or die ( ((is_object($GLOBALS["___mysqli_ston"]))? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ?$___mysqli_res : true)));
 $row = mysqli_fetch_assoc($result);
 //pageview count query
 $page=$row['title'];
-$count="SELECT * FROM page_hits WHERE page='".$page."'";$feedback=mysqli_query($GLOBALS["___mysqli_ston"],$count) or die ( ((is_object($GLOBALS["___mysqli_ston"]))? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ?$___mysqli_res : true))); 
+$count="SELECT * FROM page_hits WHERE page='".$page."'";$feedback=mysqli_query($GLOBALS["___mysqli_ston"],$count) or die ( ((is_object($GLOBALS["___mysqli_ston"]))? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ?$___mysqli_res : true)));
 $roo=mysqli_fetch_assoc($feedback);?>
 <!DOCTYPE html>
 <html lang="en">
@@ -99,7 +99,7 @@ $roo=mysqli_fetch_assoc($feedback);?>
                             </ul>-->
                         </li>
                         <li class="dropdown submenu">
-                            <a href="../../../about.html">Empresa</a>
+                            <a href="../../../about.php">Empresa</a>
                             <!--<ul class="dropdown-menu other_dropdwn">
                                 <li><a href="about.html">About Us</a></li>
                                 <li><a href="about-2.html">About Us-2</a></li>
@@ -112,24 +112,24 @@ $roo=mysqli_fetch_assoc($feedback);?>
                                 <li><a href="services-2.html">Services-2</a></li>
                             </ul>-->
                         </li>
-                        <li><a href="../../../forms.html">Formularios</a></li>
+                        <li><a href="../../../forms.php">Formularios</a></li>
                         <!--<li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
+
                                 <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
+                                <li><a href="blog-2.php">Prevensiówn y recuperación</a></li>
+
                         </li>-->
                          <li  class="dropdown submenu">
                          <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Sistemas de Distribución</a>
-                         
+
                            <ul class="dropdown-menu other_dropdwn">
-                           		<li><a href="../../../planning.html">Planificación</a></li>
-                                <li><a href="../../../blog-2.html">Mercado y Operaciones</a></li>
-                                <li><a href="../../../maps.html">Mapas</a></li>
+                           		<li><a href="../../../planning.php">Planificación</a></li>
+                                <li><a href="../../../blog-2.php">Mercado y Operaciones</a></li>
+                                <li><a href="../../../maps.php">Mapas</a></li>
                            </ul>
                          </li>
-                        <li><a href="../../../contact.html">Contact</a></li>
+                        <li><a href="../../../contacto.php">Contact</a></li>
                         <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -149,7 +149,7 @@ $roo=mysqli_fetch_assoc($feedback);?>
     <!-- End Banner area -->
 
     <!-- About Us Area -->
-    <?php 
+    <?php
 
     	$time = strtotime($row['date']);
 
@@ -186,7 +186,7 @@ $roo=mysqli_fetch_assoc($feedback);?>
                             <a href="#">PAINTING</a>
                         </div>-->
                     </div>
-                    
+
                 </div>
                 <div class="col-sm-4 widget_area">
                     <div class="resent">
@@ -203,65 +203,17 @@ $roo=mysqli_fetch_assoc($feedback);?>
                             <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>Design</a></li>
                         </ul>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
     </section>
     <!-- End About Us Area -->
 
-   
+
 
     <!-- Footer Area -->
-    <footer class="footer_area">
-        <div class="container">
-            <div class="footer_row row">
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2>ACERCA DE CLYFSA</h2>
-                    <img src="../../../images/logo.png" alt="" width="70%"> 
-                    <p>La Compañía de Luz y Fuerza S.A. Fundada en 1963. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
-                    <ul class="socail_icon">
-                       	<li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.facebook.com/clyfsa/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about quick">
-                    <h2>Accesos</h2>
-                    <ul class="quick_link">
-                        <li><a href="../../../about.html"><i class="fa fa-chevron-right"></i>Empresa</a></li>
-                        <li><a href="../../../forms.html"><i class="fa fa-chevron-right"></i>Formularios</a></li>
-                        <li><a href="../../../pagos.html"><i class="fa fa-chevron-right"></i>Pagos</a></li>
-                        <li><a href="../../../reports.html"><i class="fa fa-chevron-right"></i>Reportes</a></li>
-                        <li><a href="../../../planning.html"><i class="fa fa-chevron-right"></i>Planificación</a></li>
-                        <li><a href="../../../contact.html"><i class="fa fa-chevron-right"></i>Contacto</a></li>
-                        
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2> </h2>
-                    <a href="#" class="twitter"> </a>
-                    <a href="#" class="twitter"></a>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2>CONTACTO</h2>
-                    <address>
-                        <p>Para consultas o reclamos:</p>
-                        <ul class="my_address">
-                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>info@clyfsa.com</a></li>
-                            <li><a href="tel:+59554142679"><i class="fa fa-phone" aria-hidden="true"></i>(595) 541 42 679</a></li>
-                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Capitán Demattei y Presidente Franco
-Villarrica, PARAGUAY </span></a></li>
-                        </ul>
-                    </address>
-                </div>
-            </div>
-        </div>
-        <div class="copyright_area">
-            Copyright 2017 All rights reserved. Designed by <a href="http://craconsulting.group">CRA.</a>
-        </div>
-    </footer>
+    <?php include './components/footer/footer.php'; ?>
     <!-- End Footer Area -->
 
     <!-- jQuery JS -->

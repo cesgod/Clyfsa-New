@@ -11,210 +11,39 @@
                     <link href="images/favicon.png" rel="icon" type="image/x-icon"/>
                     <!-- Bootstrap CSS -->
                     <link href="css/bootstrap.min.css" rel="stylesheet">
-                        <!-- Animate CSS -->
-                        <link href="vendors/animate/animate.css" rel="stylesheet">
-                            <!-- Icon CSS-->
-                            <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-                                <!-- Camera Slider -->
-                                <link href="vendors/camera-slider/camera.css" rel="stylesheet">
-                                    <!-- Owlcarousel CSS-->
-                                    <link href="vendors/owl_carousel/owl.carousel.css" media="all" rel="stylesheet" type="text/css">
-                                        <!-- Charts.js -->
-                                        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0">
-                                        </script>
-                                        <!--Theme Styles CSS-->
-                                        <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
-                                        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-                                        <!--[if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-                                    </link>
-                                </link>
-                            </link>
-                        </link>
-                    </link>
-                </meta>
-            </meta>
-        </meta>
+                    <!-- Animate CSS -->
+                    <link href="vendors/animate/animate.css" rel="stylesheet">
+                    <!-- Icon CSS-->
+                    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+                    <!-- Camera Slider -->
+                    <link href="vendors/camera-slider/camera.css" rel="stylesheet">
+                    <!-- Owlcarousel CSS-->
+                    <link href="vendors/owl_carousel/owl.carousel.css" media="all" rel="stylesheet" type="text/css">
+                    <!-- Charts.js -->
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                    <!--Theme Styles CSS-->
+                    <link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+                    <!--Theme Styles CSS-->
+                    <link href="../../../css/custom.css" media="all" rel="stylesheet" type="text/css"/>
+
+                    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                    <!--[if lt IE 9]>
+                    <script src="js/html5shiv.min.js"></script>
+                    <script src="js/respond.min.js"></script>
+                    <![endif]-->
     </head>
     <body>
         <!-- Preloader -->
         <div class="preloader">
         </div>
+
         <!-- Top Header_Area -->
-        <section class="top_header_area">
-            <div class="container">
-                <ul class="nav navbar-nav top_nav">
-                    <li>
-                        <a href="tel:+59554142679">
-                            <i class="fa fa-phone">
-                            </i>
-                            (595) 541 42 679
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:clyfsa@clyfsa.com">
-                            <i class="fa fa-envelope-o">
-                            </i>
-                            clyfsa@clyfsa.com
-                        </a>
-                    </li>
-                    <!-- <li><a href="#"><i class="fa fa-clock-o"></i>Lun - Vie 07:00 - 17:00</a></li>-->
-                </ul>
-                <ul class="nav navbar-nav navbar-right social_nav">
-                    <li>
-                        <a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_blank">
-                            <i aria-hidden="true" class="fa fa-whatsapp">
-                            </i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/clyfsa/" target="_blank">
-                            <i aria-hidden="true" class="fa fa-facebook">
-                            </i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/clyfsa/" target="_blank">
-                            <i aria-hidden="true" class="fa fa-instagram">
-                            </i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/clyfsa" target="_blank">
-                            <i aria-hidden="true" class="fa fa-linkedin">
-                            </i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        <?php include './components/headers/header-top.php'; ?>
         <!-- End Top Header_Area -->
         <!-- Header_Area -->
-        <nav class="navbar navbar-default header_aera" id="main_navbar">
-            <div class="container">
-                <!-- searchForm -->
-                <div class="searchForm">
-                    <form action="#" class="row m0">
-                        <div class="input-group">
-                            <span class="input-group-addon">
-                                <i class="fa fa-search">
-                                </i>
-                            </span>
-                            <input class="form-control" name="search" placeholder="Escriba y presione Enter" type="search">
-                                <span class="input-group-addon form_hide">
-                                    <i class="fa fa-times">
-                                    </i>
-                                </span>
-                            </input>
-                        </div>
-                    </form>
-                </div>
-                <!-- End searchForm -->
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="col-md-2 p0">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle collapsed" data-target="#min_navbar" data-toggle="collapse" type="button">
-                            <span class="sr-only">
-                                Toggle navigation
-                            </span>
-                            <span class="icon-bar">
-                            </span>
-                            <span class="icon-bar">
-                            </span>
-                            <span class="icon-bar">
-                            </span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">
-                            <img alt="" class="imglogo" src="images/0logo.png"/>
-                        </a>
-                    </div>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="col-md-10 p0">
-                    <div class="collapse navbar-collapse" id="min_navbar">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown submenu">
-                                <a href="index.html">
-                                    Inicio
-                                </a>
-                                <!--<ul class="dropdown-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="index-2.html">Home 2</a></li>
-                            </ul>-->
-                            </li>
-                            <li class="dropdown submenu">
-                                <a href="about.html">
-                                    Empresa
-                                </a>
-                                <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about-2.html">About Us-2</a></li>
-                            </ul>-->
-                            </li>
-                            <li class="dropdown submenu">
-                                <a href="clientes.html">
-                                    Clientes
-                                </a>
-                                <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="services-2.html">Services-2</a></li>
-                            </ul>-->
-                            </li>
-                            <li>
-                                <a href="forms.html">
-                                    Formularios
-                                </a>
-                            </li>
-                            <!--<li class="dropdown submenu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
-                                <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
-                        </li>-->
-                            <li class="dropdown submenu">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                    Sistemas de Distribución
-                                </a>
-                                <ul class="dropdown-menu other_dropdwn">
-                                    <li>
-                                        <a href="planning.html">
-                                            Planificación
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="blog-2.html">
-                                            Mercado y Operaciones
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="maps.html">
-                                            Mapas
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">
-                                    Contacto
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav_searchFrom" href="#">
-                                    <i class="fa fa-search">
-                                    </i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-            </div>
-            <!-- /.container -->
-        </nav>
+        <?php include './components/headers/header-menu.php'; ?>
         <!-- End Header_Area -->
+
         <!-- Banner area -->
         <!--<section class="banner_area" data-stellar-background-ratio="0.5">
         <h2>FORMULARIOS</h2>
@@ -228,10 +57,7 @@
         <!-- End blog-2 area -->
         <!-- Our Featured Works Area -->
         <section class="featured_works row" data-stellar-background-ratio="0.3">
-           
-          
             <section class="our_team_area">
-               
                         <div style="width: 100%; display: inline-block">
                             <section class="our_team_area">
                                 <form>
@@ -255,7 +81,7 @@
                                         </br>
                                     </br>
                                 </form>
-                              
+
                                         <section class="call_min_area">
                                             <div class="container">
                                                 <h2 style="font-size: 30pt;">
@@ -264,7 +90,7 @@
                                                         EN EFECTIVO Y CON PAGO DE TARJETA
                                                     </br>
                                                 </h2>
-                                                
+
                                             </div>
                                         </section>
                                     </br>
@@ -273,29 +99,29 @@
                         </div>
                         <br><br>
                         <h2 class="pagos" id="pagos" style="color: #188bc9; background: #ffffff;">
-                                               
+
                                                         <b>
                                                             CONSULTA EL PUNTO DE COBRANZA MÁS CERCANO A TU UBICACIÓN
                                                         </b>
-                                                        
-                                                    
-                                               
+
+
+
                         </h2>
                         <br><br>
                         <div style="width: 80%; display: inline-block; padding-top: 0;">
                             <table align="center" border="0" cellpadding="10" cellspacing="5" style="background-color: #008BB9; text-align: center; border-bottom: #FFFFFF;" width="100%">
                                 <tbody>
-                                   
+
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     GASTON CELL
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -320,9 +146,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     FARMACIA PUNTO FARMA
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -349,13 +175,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     FARMACIA FARMA TITU
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -380,9 +206,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     FARMACIA STA. MARIA
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -409,13 +235,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     FARMACIA STA. VICTORIA
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -440,9 +266,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     FARMACIA STA. VICTORIA II
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -469,13 +295,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     EMA PRODUCTORA
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -500,9 +326,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     FINANCIERA EL COMERCIO
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -529,13 +355,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     FINANCIERA INTERFISA
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -560,9 +386,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     MARICEL NOVEDADES
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -589,13 +415,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     JM COMERCIAL
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -620,9 +446,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     FABY CELL
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -649,13 +475,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     NANNY SHOP
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -680,9 +506,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     PAPELERIA PAPELEX
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -709,13 +535,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     CRISTAL LENTES
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -740,9 +566,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     AGENCIA BUENOS VIAJES
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -769,13 +595,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     CLICK CELL
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -800,9 +626,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     DESPENSA JESSICA
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -829,13 +655,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     DESPENSA N.F.
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -860,9 +686,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     TECNOMUNDO
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -889,13 +715,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     DESPENSA N.F.
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -920,9 +746,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     TECNOMUNDO
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -949,13 +775,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     ELECTRO INFO
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -980,9 +806,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     LIBRERIA CINDY MARIA
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -1009,13 +835,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     SMVG EMPRENDIMIENTO
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -1040,9 +866,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     COMERCIAL SAN JOSE
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -1069,13 +895,13 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF; background-color: #00779F">
-                                                
+
                                                     PATO CELL
-                                                
+
                                             </h4>
                                         </td>
-                                        
-                                        
+
+
                                     </tr>
                                     <tr>
                                         <th scope="row" style="text-align: center; background-color: #00779F">
@@ -1100,9 +926,9 @@
                                     <tr>
                                         <td colspan="2">
                                             <h4 style="color: #FFFFFF">
-                                                
+
                                                     DESPENSA LUIS FERNANDO
-                                                
+
                                             </h4>
                                         </td>
                                     </tr>
@@ -1128,169 +954,29 @@
                                     </tr>
                                 </tbody>
                             </table>
-                           
+
                         </div>
-                    
-                
+
+        </section>
         </section>
 
-        
-                <section class="call_min_area">
-                    <div class="container">
-                        <div class="call_btn">
-                            <a class="button_all" href="contact.html">
-                                CONTACTO
-                            </a>
-                            <a class="button_all" href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta.">
-                                CONSULTAS
-                            </a>
-                        </div>
-                    </div>
-                </section>
-                
-<!-- Footer Area -->
-<footer class="footer_area">
-    <div class="container">
-        <div class="footer_row row">
-            <div class="col-md-3 col-sm-6 footer_about">
-                <h2>
-                    ACERCA DE CLYFSA
-                </h2>
-                <img alt="" src="images/logo.png" width="70%">
-                    <p>
-                        La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.
-                    </p>
-                    <ul class="socail_icon">
-                        <li>
-                            <a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top">
-                                <i aria-hidden="true" class="fa fa-whatsapp">
-                                </i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/clyfsa/">
-                                <i aria-hidden="true" class="fa fa-facebook">
-                                </i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i aria-hidden="true" class="fa fa-twitter">
-                                </i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i aria-hidden="true" class="fa fa-linkedin">
-                                </i>
-                            </a>
-                        </li>
-                    </ul>
-                </img>
-            </div>
-            <div class="col-md-3 col-sm-6 footer_about quick">
-                <h2>
-                    Accesos
-                </h2>
-                <ul class="quick_link">
-                    <li>
-                        <a href="about.html">
-                            <i class="fa fa-chevron-right">
-                            </i>
-                            Empresa
-                        </a>
-                    </li>
-                    <li>
-                        <a href="forms.html">
-                            <i class="fa fa-chevron-right">
-                            </i>
-                            Formularios
-                        </a>
-                    </li>
-                    <li>
-                        <a href="pagos.html">
-                            <i class="fa fa-chevron-right">
-                            </i>
-                            Pagos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="reports.html">
-                            <i class="fa fa-chevron-right">
-                            </i>
-                            Reportes
-                        </a>
-                    </li>
-                    <li>
-                        <a href="planning.html">
-                            <i class="fa fa-chevron-right">
-                            </i>
-                            Planificación
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">
-                            <i class="fa fa-chevron-right">
-                            </i>
-                            Contacto
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-6 footer_about">
-                <h2>
-                </h2>
-                <a class="twitter" href="#">
-                </a>
-                <a class="twitter" href="#">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 footer_about">
-                <h2>
+    <section class="call_min_area">
+        <div class="container">
+            <div class="call_btn">
+                <a class="button_all" href="contacto.php">
                     CONTACTO
-                </h2>
-                <address>
-                    <p>
-                        Para consultas o reclamos:
-                    </p>
-                    <ul class="my_address">
-                        <li>
-                            <a href="#">
-                                <i aria-hidden="true" class="fa fa-envelope">
-                                </i>
-                                clyfsa@clyfsa.com
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+59554142679">
-                                <i aria-hidden="true" class="fa fa-phone">
-                                </i>
-                                (595) 541 42 679
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i aria-hidden="true" class="fa fa-map-marker">
-                                </i>
-                                <span>
-                                    Capitán Demattei y Presidente Franco
-Villarrica, PARAGUAY
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </address>
+                </a>
+                <a class="button_all" href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta.">
+                    CONSULTAS
+                </a>
             </div>
         </div>
-    </div>
-    <div class="copyright_area">
-        Copyright 2017 All rights reserved. Designed by
-        <a href="http://craconsulting.group">
-            CRA.
-        </a>
-    </div>
-</footer>
+    </section>
+
+<!-- Footer Area -->
+<?php include './components/footer/footer.php'; ?>
 <!-- End Footer Area -->
+
 <script src="scripts/flot/jquery.flot.js" type="text/javascript">
 </script>
 <script src="scripts/flot/jquery.flot.pie.js" type="text/javascript">

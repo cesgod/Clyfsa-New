@@ -28,14 +28,14 @@ $userall=$_SESSION['alldatac'];
     <!-- Charts.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="https://kit.fontawesome.com/db5df82b13.js" crossorigin="anonymous"></script>
-     
+
 
 
 
     <!--Theme Styles CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 
-  
+
 
 
 <!-- Latest compiled and minified JavaScript -->
@@ -47,19 +47,19 @@ $userall=$_SESSION['alldatac'];
     <script src="js/respond.min.js"></script>
     <![endif]-->
 
-      
-    
-  
+
+
+
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-   
 
-    
-    
-    
-    
+
+
+
+
+
 </head>
 <body>
     <!-- Preloader -->
@@ -122,9 +122,9 @@ $userall=$_SESSION['alldatac'];
                             </ul>-->
                         </li>
                         <li class="dropdown submenu">
-                            <a href="about.html">Empresa</a>
+                            <a href="about.php">Empresa</a>
                             <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="about.php">About Us</a></li>
                                 <li><a href="about-2.html">About Us-2</a></li>
                             </ul>-->
                         </li>
@@ -135,24 +135,24 @@ $userall=$_SESSION['alldatac'];
                                 <li><a href="services-2.html">Services-2</a></li>
                             </ul>-->
                         </li>
-                        <li><a href="forms.html">Formularios</a></li>
+                        <li><a href="forms.php>Formularios</a></li>
                         <!--<li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
+
                                 <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
+                                <li><a href="blog-2.php>Prevensiówn y recuperación</a></li>
+
                         </li>-->
                          <li  class="dropdown submenu">
                          <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Sistemas de Distribución</a>
-                         
+
                            <ul class="dropdown-menu other_dropdwn">
-                                <li><a href="planning.html">Planificación</a></li>
-                                <li><a href="blog-2.html">Mercado y Operaciones</a></li>
-                                <li><a href="maps.html">Mapas</a></li>
+                                <li><a href="planning.php>Planificación</a></li>
+                                <li><a href="blog-2.php>Mercado y Operaciones</a></li>
+                                <li><a href="maps.php>Mapas</a></li>
                            </ul>
                          </li>
-                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="contacto.php">Contacto</a></li>
                         <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -162,7 +162,7 @@ $userall=$_SESSION['alldatac'];
     <!-- End Header_Area -->
 
     <!-- Banner area -->
-   
+
     <!-- End Banner area -->
 
     <!-- Not Found area -->
@@ -171,17 +171,17 @@ $userall=$_SESSION['alldatac'];
             $(document).ready(function() {
                 $('#example').DataTable({
                     "scrollX": true,
-                    dom: 'Bfrtip',                   
+                    dom: 'Bfrtip',
                 });
 
 
 
 
             } );
-            
+
 </script>
-        
-       
+
+
         <div style="width: 100%; text-align: center;">
         <table style="width: 900px; vertical-align: middle; margin: auto;" border="1" class="table" bordercolor="#cccccc" id="example">
             <thead>
@@ -196,8 +196,8 @@ $userall=$_SESSION['alldatac'];
                         echo "Detalle de Consumo";
                     }
                 ?>
-                    
-                        
+
+
 
                     </b></h3></td></tr>
                 <tr><td colspan="5"><p style="font-size: 20px"></p>
@@ -213,23 +213,23 @@ $userall=$_SESSION['alldatac'];
                      <td><b>Periodo de consumo: </b></td><td colspan="2"><?php echo $_SESSION['fechaAnterior']." - ".$_SESSION['fechaActual']?></td>
                 </tr>
                 <tr>
-                    
+
 
                     <td><b>Estado Factura: </b></td><td>
 
-                        <?php 
+                        <?php
 
                             if ($_SESSION['estadoFactura']<>'PAGADA') {
                                echo '<h5 style="color: #ff0000">'.$_SESSION['estadoFactura'].'</h5>';
                             }else{
-                                echo '<h5 style="color: #188bc9"><b>'.$_SESSION['estadoFactura'].'</b></h5>';    
+                                echo '<h5 style="color: #188bc9"><b>'.$_SESSION['estadoFactura'].'</b></h5>';
                             }
-                            
+
 
 
 
                         ?>
-                            
+
 
                         </td>
                      <td><b>Días facturados: </b></td><td colspan="2"><?php echo $_SESSION['diasfac'];?></td>
@@ -249,7 +249,7 @@ $userall=$_SESSION['alldatac'];
                         </a>
                         </button>
                         <button class="btn btn-info" id="b" style="display: none; width: 100%;">
-                        <a href="pagos.html"  style="color: #ffffff;">
+                        <a href="pagos.php"  style="color: #ffffff;">
                             <h3>PAGOS <i class="fas fa-credit-card"></i></h3>
                         </a>
                         </button>
@@ -260,37 +260,37 @@ $userall=$_SESSION['alldatac'];
                     <td><p><h4><b>Deudas Anteriores: </b></h4></p></td><td colspan="2"><p>Gs. <?php echo $_SESSION['totalDeuda'];?></p></td>
                 </tr>
                 <tr>
-                    
+
                      <td><h3><b>TOTAL A PAGAR</b></h3></td><td colspan="2"><p><b><h3 style="color: #188bc9">Gs. <?php echo $_SESSION['tapagar'];?></h3><b></p></td>
                 </tr>
                 <tr style="height: 300px;">
-                    
+
                     <td colspan="5">
-                        
+
                             <canvas id="myChart">
                             </canvas>
                             <br><br>
-                      
+
 
                     </td>
                 </tr>
-            </tbody>            
+            </tbody>
         </table>
-        
-         <?php 
+
+         <?php
         if ($_SESSION['codTipoConex']=='6524') {
             echo "<br>
-            
+
             <h3 style='color:green';margin-right: 5px; margin-left: 5px; line-height : 20px;></h3><br>
             <form class='search_error' style='line-height : 22px;'><p style='text-align: justify; padding-right:15px; padding-left:15px'></p></form>";
 
         }else{
-            echo "<br>        
+            echo "<br>
             <h3 style='color:red';margin-right: 5px; margin-left: 5px; line-height : 20px;></h3><br>
             <form class='search_error' style='line-height : 22px;'><p style='text-align: justify; padding-right:15px; padding-left:15px'></p></form>";
 
         }
-        
+
          ?>
         </div>
 
@@ -302,12 +302,12 @@ $userall=$_SESSION['alldatac'];
                  <h3>REALIZAR PAGO</h3>
             </a>
         </form>-->
-        
-   
+
+
 
                 <div class="col-xs-11 blog_content">
                     <hr>
-                    
+
 
 
 <script>
@@ -324,14 +324,14 @@ function myFunction() {
 }
 </script>
 
-                    
+
 
 <script>
 $(document).ready(function() {
   $.ajax({
         url: "/dashboard/assets/php/thedata.php",
         success: function(result) {
-          
+
             var chart_data = ["120", "127.5", "139.5"];
             console.log("result", result);
             chart_data = JSON.parse(result);
@@ -389,14 +389,14 @@ $(document).ready(function() {
                     autoSkip: false,
                     lineHeight: 4.5
                 },
-            
+
             }],
             yAxes: [{
             stacked: true,
             scaleLabel: {
             display: true,
             labelString: 'kWh'
-            },               
+            },
             ticks: {
             beginAtZero: true,
             callback: function(value, index, values) {
@@ -409,32 +409,32 @@ $(document).ready(function() {
                   }
                 }]
               }
-                
-                
+
+
             }
         });
         }});
-});                                  
-</script> 
+});
+</script>
                     </div>
-                        
+
                     </div>
                     <hr>
                 </div>
                 <br><br><br><br><br><br>
-     
 
-        
- 
+
+
+
 
 
 <br>
 <br>
 
         </section>
-        
-        
-      
+
+
+
     </section>
     <!-- End Not Found area -->
 
@@ -444,7 +444,7 @@ $(document).ready(function() {
             <div class="footer_row row">
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>ACERCA DE CLYFSA</h2>
-                    <img src="images/logo.png" alt="" width="70%"> 
+                    <img src="images/logo.png" alt="" width="70%">
                     <p>La Compañía de Luz y Fuerza S.A. fué fundada en el año 1953. <br>Es una Compañía de distribución de energía eléctrica que suministra a más de 16.000 clientes en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
                     <ul class="socail_icon">
                         <li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
@@ -456,13 +456,13 @@ $(document).ready(function() {
                 <div class="col-md-3 col-sm-6 footer_about quick">
                     <h2>Accesos</h2>
                     <ul class="quick_link">
-                        <li><a href="about.html"><i class="fa fa-chevron-right"></i>Empresa</a></li>
-                        <li><a href="forms.html"><i class="fa fa-chevron-right"></i>Formularios</a></li>
-                        <li><a href="pagos.html"><i class="fa fa-chevron-right"></i>Pagos</a></li>
-                        <li><a href="reports.html"><i class="fa fa-chevron-right"></i>Reportes</a></li>
-                        <li><a href="planning.html"><i class="fa fa-chevron-right"></i>Planificación</a></li>
-                        <li><a href="contact.html"><i class="fa fa-chevron-right"></i>Contacto</a></li>
-                        
+                        <li><a href="about.php"><i class="fa fa-chevron-right"></i>Empresa</a></li>
+                        <li><a href="forms.php><i class="fa fa-chevron-right"></i>Formularios</a></li>
+                        <li><a href="pagos.php"><i class="fa fa-chevron-right"></i>Pagos</a></li>
+                        <li><a href="reportes.php"><i class="fa fa-chevron-right"></i>Reportes</a></li>
+                        <li><a href="planning.php><i class="fa fa-chevron-right"></i>Planificación</a></li>
+                        <li><a href="contacto.php"><i class="fa fa-chevron-right"></i>Contacto</a></li>
+
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 footer_about" style="padding-top: 10px">
@@ -475,7 +475,7 @@ $(document).ready(function() {
                             <li><a href="tel:+59554142679"><i class="fa fa-whatsapp" aria-hidden="true"></i>(+595) 982 305 305</a></li>
                             <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Capitán Demattei y Presidente Franco</span></a></li>
                             <li><a href="#"><i class="" aria-hidden="true"></i>       Villarrica - Paraguay</></a></li>
-                            
+
                     </address>
                 </div>
             </div>

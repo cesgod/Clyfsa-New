@@ -1,4 +1,4 @@
-<?php 
+<?php
 header("Location: nblog/blog/resblog/index2.php");
 
 require("libs/fetch_data.php");?>
@@ -172,11 +172,11 @@ document.createElement = (function () {
                             </ul>-->
                             </li>
                             <li class="dropdown submenu">
-                                <a href="about.html">
+                                <a href="about.php">
                                     Empresa
                                 </a>
                                 <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="about.php">About Us</a></li>
                                 <li><a href="about-2.html">About Us-2</a></li>
                             </ul>-->
                             </li>
@@ -190,16 +190,16 @@ document.createElement = (function () {
                             </ul>-->
                             </li>
                             <li>
-                                <a href="forms.html">
+                                <a href="forms.php
                                     Formularios
                                 </a>
                             </li>
                             <!--<li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
+
                                 <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
+                                <li><a href="blog-2.php>Prevensiówn y recuperación</a></li>
+
                         </li>-->
                             <li class="dropdown submenu">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -207,24 +207,24 @@ document.createElement = (function () {
                                 </a>
                                 <ul class="dropdown-menu other_dropdwn">
                                     <li>
-                                        <a href="planning.html">
+                                        <a href="planning.php>
                                             Planificación
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="blog-2.html">
+                                        <a href="blog-2.php>
                                             Mercado y Operaciones
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="maps.html">
+                                        <a href="maps.php>
                                             Mapas
                                         </a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="contact.html">
+                                <a href="contacto.php">
                                     Contact
                                 </a>
                             </li>
@@ -250,7 +250,7 @@ document.createElement = (function () {
 
                         <div class="container">
                                 <img src="images/app.png" class="appicon fadeInRightBig animated" data-wow-delay="0.5s"></img>
-                                <a class="wow fadeInLeftBig animated" data-wow-delay="0s" href="app.html" style="width: 80%; padding-top: 15px;padding-bottom: 15px">
+                                <a class="wow fadeInLeftBig animated" data-wow-delay="0s" href="app.php" style="width: 80%; padding-top: 15px;padding-bottom: 15px">
                                     <h2>DESCARGAR <i class="fas fa-cloud-download-alt"></i></h2>
                                 </a>
                         </div>
@@ -286,33 +286,33 @@ document.createElement = (function () {
         </section>
         <div id="goto">
         </div>
-        <!--  
+        <!--
     <div class="container-name">
 <div class="div1">
-        
-                
-                   
-                
-                        
+
+
+
+
+
                         <h5 class=" wow fadeInUp animated">Bienvenidos</h5>
                         <h3 class=" wow fadeInUp animated" data-wow-delay="0.5s">SOME RANDOM TEXT, TEXT, TEXT</h3>
                         <p class=" wow fadeInUp animated" data-wow-delay="0.8s">Random words to fill, random words to fill, random words to fill</p>
-                    
-                      
-    
-                   
-                
-            
-        
-        
+
+
+
+
+
+
+
+
         </div>
 <div class="div2">
-    
+
     <h5 class=" wow fadeInUp animated">Bienvenidos</h5>
                         <h3 class=" wow fadeInUp animated" data-wow-delay="0.5s">SOME RANDOM TEXT, TEXT, TEXT</h3>
                         <p class=" wow fadeInUp animated" data-wow-delay="0.8s">Random words to fill, random words to fill, random words to fill</p>
-    
-    
+
+
 </div>
 </div>
     -->
@@ -356,10 +356,10 @@ document.createElement = (function () {
                 <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
             </div>
             <div class="row latest_blog">
-                
+
                 <?php getblogridposts("blogs");?>
                 <!--bloggrids-->
-                       
+
             </div>
         </div>
     </section>
@@ -386,14 +386,14 @@ document.createElement = (function () {
                                             <div class="portfolio_filter portfolio_filter_2" id="asdf">
                                                 <ul>
                                                     <li class="active" data-filter="*">
-                                                        <a href="pagos.html">
+                                                        <a href="pagos.php">
                                                             <i aria-hidden="true" class="fa fa-check">
                                                             </i>
                                                             Pagos
                                                         </a>
                                                     </li>
                                                     <li data-filter=".building">
-                                                        <a href="reports.html">
+                                                        <a href="reportes.php">
                                                             <i aria-hidden="true" class="fa fa-exclamation">
                                                             </i>
                                                             Reportar
@@ -401,10 +401,10 @@ document.createElement = (function () {
                                                     </li>
                                                     <!--<li data-filter=".webdesign"><a href="consultarm.html"><i class="fa fa-archive" aria-hidden="true"></i>Facturas</a></li>-->
                                                     <li data-filter=".webdesign">
-                                                        <a href="app.html">
+                                                        <a href="app.php">
                                                             <i aria-hidden="true" class="fab fa-android">
                                                             </i>
-                                                            APP 
+                                                            APP
                                                         </a>
                                                     </li>
                                                     <!--<li data-filter=".adversting"><a href="clientes.html"><i class="fa fa-user" aria-hidden="true"></i>PERFIL</a></li>-->
@@ -444,14 +444,14 @@ document.createElement = (function () {
             </div>
         </section>
         <section>
-            <a href="blog-2.html">
+            <a href="blog-2.php>
                 <img src="images/gadget.svg"/>
             </a>
         </section>
         <section>
-            
+
         </section>
-        <!-- About Us Area 
+        <!-- About Us Area
     <section class="about_us_area row">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -473,7 +473,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End About Us Area -->
-        <!-- What ew offer Area 
+        <!-- What ew offer Area
     <section class="what_we_area row">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -515,7 +515,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End What ew offer Area -->
-        <!-- Our Features Area 
+        <!-- Our Features Area
     <section class="our_feature_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -569,7 +569,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Features Area -->
-        <!-- Our Services Area 
+        <!-- Our Services Area
     <section class="our_services_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -666,7 +666,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Services Area -->
-        <!-- Our Team Area 
+        <!-- Our Team Area
     <section class="our_team_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -734,7 +734,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Team Area -->
-        <!-- Our Achievments Area 
+        <!-- Our Achievments Area
     <section class="our_achievments_area" data-stellar-background-ratio="0.3">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -766,7 +766,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Achievments Area -->
-        <!-- Our Testimonial Area 
+        <!-- Our Testimonial Area
     <section class="testimonial_area row">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -862,7 +862,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our testimonial Area -->
-        <!-- Our Featured Works Area 
+        <!-- Our Featured Works Area
     <section class="featured_works row" data-stellar-background-ratio="0.3">
         <div class="tittle wow fadeInUp">
             <h2>Our Featured Works</h2>
@@ -928,7 +928,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Featured Works Area -->
-        <!-- Our Latest Blog Area 
+        <!-- Our Latest Blog Area
     <section class="latest_blog_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -958,7 +958,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Latest Blog Area -->
-        <!-- Our Partners Area 
+        <!-- Our Partners Area
     <section class="our_partners_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -1034,42 +1034,42 @@ document.createElement = (function () {
                         </h2>
                         <ul class="quick_link">
                             <li>
-                                <a href="about.html">
+                                <a href="about.php">
                                     <i class="fa fa-chevron-right">
                                     </i>
                                     Empresa
                                 </a>
                             </li>
                             <li>
-                                <a href="forms.html">
+                                <a href="forms.php
                                     <i class="fa fa-chevron-right">
                                     </i>
                                     Formularios
                                 </a>
                             </li>
                             <li>
-                                <a href="pagos.html">
+                                <a href="pagos.php">
                                     <i class="fa fa-chevron-right">
                                     </i>
                                     Pagos
                                 </a>
                             </li>
                             <li>
-                                <a href="reports.html">
+                                <a href="reportes.php">
                                     <i class="fa fa-chevron-right">
                                     </i>
                                     Reportes
                                 </a>
                             </li>
                             <li>
-                                <a href="planning.html">
+                                <a href="planning.php>
                                     <i class="fa fa-chevron-right">
                                     </i>
                                     Planificación
                                 </a>
                             </li>
                             <li>
-                                <a href="contact.html">
+                                <a href="contacto.php">
                                     <i class="fa fa-chevron-right">
                                     </i>
                                     Contacto

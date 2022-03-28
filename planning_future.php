@@ -23,117 +23,27 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
     <!--Theme Styles CSS-->
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+		<!--Theme Styles CSS-->
+		<link href="../../../css/custom.css" media="all" rel="stylesheet" type="text/css"/>
 
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    
-    
-    
-    
 </head>
 <body>
     <!-- Preloader -->
     <div class="preloader"></div>
 
-	<!-- Top Header_Area -->
-	<section class="top_header_area">
-	    <div class="container">
-            <ul class="nav navbar-nav top_nav">
-                <li><a href="tel:+59554142679"><i class="fa fa-phone"></i>(595) 541 42 679</a></li>
-               	<li><a href="mailto:clyfsa@clyfsa.com"><i class="fa fa-envelope-o"></i>clyfsa@clyfsa.com</a></li>
-               <!-- <li><a href="#"><i class="fa fa-clock-o"></i>Lun - Vie 07:00 - 17:00</a></li>-->
-            </ul>
-            <ul class="nav navbar-nav navbar-right social_nav">
-                <li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i>
-                </a></li>
-                <li><a href="https://www.facebook.com/clyfsa/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.instagram.com/clyfsa/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/company/clyfsa" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            </ul>
-	    </div>
-	</section>
-	<!-- End Top Header_Area -->
-
-	<!-- Header_Area -->
-    <nav class="navbar navbar-default header_aera" id="main_navbar">
-        <div class="container">
-            <!-- searchForm -->
-            <div class="searchForm">
-                <form action="#" class="row m0">
-                    <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                        <input type="search" name="search" class="form-control" placeholder="Escriba y presione Enter">
-                        <span class="input-group-addon form_hide"><i class="fa fa-times"></i></span>
-                    </div>
-                </form>
-            </div><!-- End searchForm -->
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="col-md-2 p0">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/0logo.png" alt="" class="imglogo"></a>
-                </div>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="col-md-10 p0">
-                <div class="collapse navbar-collapse" id="min_navbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown submenu">
-                            <a href="index.html">Inicio</a>
-                            <!--<ul class="dropdown-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="index-2.html">Home 2</a></li>
-                            </ul>-->
-                        </li>
-                        <li class="dropdown submenu">
-                            <a href="about.html">Empresa</a>
-                            <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about-2.html">About Us-2</a></li>
-                            </ul>-->
-                        </li>
-                        <li class="dropdown submenu">
-                            <a href="clientes.html">Clientes</a>
-                            <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="services-2.html">Services-2</a></li>
-                            </ul>-->
-                        </li>
-                        <li><a href="forms.html">Formularios</a></li>
-                        <!--<li class="dropdown submenu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
-                                <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
-                        </li>-->
-                         <li  class="dropdown submenu">
-                         <a href="#"  class="dropdown-toggle" data-toggle="dropdown">Sistemas de Distribución</a>
-                         
-                           <ul class="dropdown-menu other_dropdwn">
-                           		<li><a href="planning.html">Planificación</a></li>
-                                <li><a href="blog-2.html">Mercado y Operaciones</a></li>
-                                <li><a href="maps.html">Mapas</a></li>
-                           </ul>
-                         </li>
-                        <li><a href="contact.html">Contacto</a></li>
-                        <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div>
-        </div><!-- /.container -->
-    </nav>
-	<!-- End Header_Area -->
+    <!-- Top Header_Area -->
+    <?php include './components/headers/header-top.php'; ?>
+    <!-- End Top Header_Area -->
+    <!-- Header_Area -->
+    <?php include './components/headers/header-menu.php'; ?>
+    <!-- End Header_Area -->
 
     <!-- Banner area -->
     <section class="banner_area" data-stellar-background-ratio="0.5">
@@ -151,8 +61,8 @@
             <div class="row building_construction_row">
                 <div class="col-sm-8 constructing_laft">
                     <h4>Planificación</h4>
-                    
-               
+
+
                    <!-- <img src="images/construction.jpg" alt="">-->
                     <a href="#">Planificación a Futuro</a>
                     <p>En CLYFSA, la palabra "planificación" significa evaluar y gestionar las necesidades futuras de la red eléctrica. El equipo de planificación de CLYFSA, que consta de ingenieros, analistas y gerentes de proyectos, garantiza que la energía estará disponible cuando la necesite hoy y en el futuro. El proceso de planificación en CLYFSA incluye el análisis y la coordinación de las actualizaciones planificadas (como nuevas líneas de transmisión), la conexión de nuevas centrales eléctricas al sistema existente y la planificación de las conexiones de CLYFSA con los sistemas de transmisión vecinos.
@@ -165,20 +75,20 @@
                             <li><i class="fa fa-chevron-circle-right"></i>Crecimiento esperado en el uso de electricidad (por ejemplo, el crecimiento de la población en un área específica aumentaría la demanda)</li>
                             <li><i class="fa fa-chevron-circle-right"></i>Política pública (estatal u otras iniciativas energéticas gubernamentales)</li>
                             <li><i class="fa fa-chevron-circle-right"></i>El Plan de Expansión de Distribución anual de CLYFSA determina en detalle los cambios necesarios en la red de Distribución hasta cinco años en el futuro y proyecta los cambios que probablemente se necesitarán hasta 15 años en el futuro.</li>
-                            
+
                         </ul>
                     </div>
                     <div class="col-md-6 ipsum_img"><img src="imagen21.jpg" alt=""></div>
-                   
+
                 </div>
                 <div class="col-sm-4 constructing_right">
-                    
+
                     <div class="contact_us">
                         <h4>Contáctenos</h4>
-                        <a href="#" class="contac_namber">(595) 541 42 679</a>
+                        <a href="tel:+59554142679" class="contac_namber">(595) 541 42 679</a>
                         <!--<a href="#" class="contac_namber">+88 0181 2013370</a>-->
                         <p>Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias</p>
-                        <a href="#" class="button_all">Contacto</a>
+                        <a href="/contacto.php" class="button_all">Contacto</a>
                     </div>
                     <div style="height: 20%"><a class="twitter-timeline" href="https://twitter.com/CLYFSAoficial?ref_src=twsrc%5Etfw" data-height="500px">Tweets by CLYFSAoficial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
                    <!-- <div><iframe src="https://www.instagram.com/p/BFKjVxkBsCC/embed/captioned" width="320" height="425" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div>-->
@@ -188,7 +98,7 @@
     </section>
     <!-- End Building Construction Area -->
 
-    <!-- Our Featured Works Area 
+    <!-- Our Featured Works Area
     <section class="featured_works row" data-stellar-background-ratio="0.3">
         <div class="tittle wow fadeInUp">
             <h2>Our Featured Works</h2>
@@ -255,7 +165,7 @@
     </section>
     <!-- End Our Featured Works Area -->
 
-    <!-- Our Team Area 
+    <!-- Our Team Area
     <section class="our_team_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -324,56 +234,10 @@
     </section>
     <!-- End Our Team Area -->
 
- <footer class="footer_area">
-        <div class="container">
-            <div class="footer_row row">
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2>ACERCA DE CLYFSA</h2>
-                    <img src="images/logo.png" alt="" width="70%"> 
-                    <p>La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
-                    <ul class="socail_icon">
-                       	<li><a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.facebook.com/clyfsa/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about quick">
-                    <h2>Accesos</h2>
-                    <ul class="quick_link">
-                        <li><a href="about.html"><i class="fa fa-chevron-right"></i>Empresa</a></li>
-                        <li><a href="forms.html"><i class="fa fa-chevron-right"></i>Formularios</a></li>
-                        <li><a href="pagos.html"><i class="fa fa-chevron-right"></i>Pagos</a></li>
-                        <li><a href="reports.html"><i class="fa fa-chevron-right"></i>Reportes</a></li>
-                        <li><a href="planning.html"><i class="fa fa-chevron-right"></i>Planificación</a></li>
-                        <li><a href="contact.html"><i class="fa fa-chevron-right"></i>Contacto</a></li>
-                        
-                    </ul>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2> </h2>
-                    <a href="#" class="twitter"> </a>
-                    <a href="#" class="twitter"></a>
-                </div>
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2>CONTACTO</h2>
-                    <address>
-                        <p>Para consultas o reclamos:</p>
-                        <ul class="my_address">
-                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>clyfsa@clyfsa.com</a></li>
-                            <li><a href="tel:+59554142679"><i class="fa fa-phone" aria-hidden="true"></i>(595) 541 42 679</a></li>
-                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Capitán Demattei y Presidente Franco
-Villarrica, PARAGUAY </span></a></li>
-                        </ul>
-                    </address>
-                </div>
-            </div>
-        </div>
-        <div class="copyright_area">
-            Copyright 2017 All rights reserved. Designed by <a href="http://craconsulting.group">CRA.</a>
-        </div>
-    </footer>
+    <!-- Footer Area -->
+    <?php include './components/footer/footer.php'; ?>
     <!-- End Footer Area -->
+
     <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
     <script src="scripts/flot/jquery.flot.pie.js" type="text/javascript"></script>
     <!-- jQuery JS -->

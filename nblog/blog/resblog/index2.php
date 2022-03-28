@@ -41,6 +41,9 @@ document.createElement = (function () {
         <link href="../../../vendors/owl_carousel/owl.carousel.css" media="all" rel="stylesheet" type="text/css">
         <!--Theme Styles CSS-->
         <link href="../../../css/style.css" media="all" rel="stylesheet" type="text/css"/>
+        <!--Theme Styles CSS-->
+        <link href="../../../css/custom.css" media="all" rel="stylesheet" type="text/css"/>
+
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
         <script src="../../../js/html5shiv.min.js"></script>
@@ -60,177 +63,10 @@ document.createElement = (function () {
         <div class="preloader">
         </div>
         <!-- Top Header_Area -->
-        <section class="top_header_area">
-            <div class="container">
-                <ul class="nav navbar-nav top_nav">
-                    <li>
-                        <a href="tel:+59554142679">
-                            <i class="fa fa-phone">
-                            </i>
-                            +595 541 42 679
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:clyfsa@clyfsa.com">
-                            <i class="fa fa-envelope-o">
-                            </i>
-                            clyfsa@clyfsa.com
-                        </a>
-                    </li>
-                    <!-- <li><a href="#"><i class="fa fa-clock-o"></i>Lun - Vie 07:00 - 17:00</a></li>-->
-                </ul>
-                <ul class="nav navbar-nav navbar-right social_nav">
-                    <li>
-                        <a href="https://api.whatsapp.com/send?phone=595982305305<&text=Hola! Tengo una consulta." target="_blank">
-                            <i aria-hidden="true" class="fa fa-whatsapp">
-                            </i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/clyfsa/" target="_blank">
-                            <i aria-hidden="true" class="fa fa-facebook">
-                            </i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/clyfsa/" target="_blank">
-                            <i aria-hidden="true" class="fa fa-instagram">
-                            </i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/company/clyfsa" target="_blank">
-                            <i aria-hidden="true" class="fa fa-linkedin">
-                            </i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        <?php include '../../../components/headers/header-top.php'; ?>
         <!-- End Top Header_Area -->
         <!-- Header_Area -->
-        <nav class="navbar navbar-default header_aera" id="main_navbar">
-            <div class="container">
-                <!-- searchForm -->
-                <div class="searchForm">
-                    <form action="#" class="row m0">
-                        <div class="input-group">
-                            <span class="input-group-addon">
-                                <i class="fa fa-search">
-                                </i>
-                            </span>
-                            <input class="form-control" name="search" placeholder="Escriba y presione Enter" type="search">
-                                <span class="input-group-addon form_hide">
-                                    <i class="fa fa-times">
-                                    </i>
-                                </span>
-                            </input>
-                        </div>
-                    </form>
-                </div>
-                <!-- End searchForm -->
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="col-md-2 p0">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle collapsed" data-target="#min_navbar" data-toggle="collapse" type="button">
-                            <span class="sr-only">
-                                Toggle navigation
-                            </span>
-                            <span class="icon-bar">
-                            </span>
-                            <span class="icon-bar">
-                            </span>
-                            <span class="icon-bar">
-                            </span>
-                        </button>
-                        <a class="navbar-brand" href="../../../index.php">
-                            <img alt="" class="imglogo" src="../../../images/0logo.png"/>
-                        </a>
-                    </div>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="col-md-10 p0">
-                    <div class="collapse navbar-collapse" id="min_navbar">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown submenu">
-                                <a href="../../../index.php">
-                                    Inicio
-                                </a>
-                                <!--<ul class="dropdown-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="index-2.html">Home 2</a></li>
-                            </ul>-->
-                            </li>
-                            <li class="dropdown submenu">
-                                <a href="../../../about.html">
-                                    Empresa
-                                </a>
-                                <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about-2.html">About Us-2</a></li>
-                            </ul>-->
-                            </li>
-                            <li class="dropdown submenu">
-                                <a href="../../../factc.php">
-                                    Clientes
-                                </a>
-                                <!--<ul class="dropdown-menu other_dropdwn">
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="services-2.html">Services-2</a></li>
-                            </ul>-->
-                            </li>
-                            <li>
-                                <a href="../../../forms.html">
-                                    Formularios
-                                </a>
-                            </li>
-                            <!--<li class="dropdown submenu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Comience, detenga su servicio</a>
-                            
-                                <li><a href="blog.html">Problemas con el servicio</a></li>
-                                <li><a href="blog-2.html">Prevensiówn y recuperación</a></li>
-                           
-                        </li>-->
-                            <li class="dropdown submenu">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                    Sistemas de Distribución
-                                </a>
-                                <ul class="dropdown-menu other_dropdwn">
-                                    <li>
-                                        <a href="../../../planning.html">
-                                            Planificación
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="../../../blog-2.html">
-                                            Mercado y Operaciones
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="../../../maps.html">
-                                            Mapas
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="../../../contact.html">
-                                    Contact
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav_searchFrom" href="#">
-                                    <i class="fa fa-search">
-                                    </i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
-                </div>
-            </div>
-            <!-- /.container -->
-        </nav>
+        <?php include '../../../components/headers/header-menu.php'; ?>
         <!-- End Header_Area -->
         <!-- Slider area -->
         <section class="slider_area row m0">
@@ -240,7 +76,7 @@ document.createElement = (function () {
 
                         <div class="container">
                                 <img src="../../../images/app.png" class="appicon fadeInRightBig animated" data-wow-delay="0.5s"></img>
-                                <a class="wow fadeInLeftBig animated" data-wow-delay="0s" href="app.html" style="width: 80%; padding-top: 15px;padding-bottom: 15px">
+                                <a class="wow fadeInLeftBig animated" data-wow-delay="0s" href="app.php" style="width: 80%; padding-top: 15px;padding-bottom: 15px">
                                     <h2>DESCARGAR <i class="fas fa-cloud-download-alt"></i></h2>
                                 </a>
                         </div>
@@ -276,33 +112,33 @@ document.createElement = (function () {
         </section>
         <div id="goto">
         </div>
-        <!--  
+        <!--
     <div class="container-name">
 <div class="div1">
-        
-                
-                   
-                
-                        
+
+
+
+
+
                         <h5 class=" wow fadeInUp animated">Bienvenidos</h5>
                         <h3 class=" wow fadeInUp animated" data-wow-delay="0.5s">SOME RANDOM TEXT, TEXT, TEXT</h3>
                         <p class=" wow fadeInUp animated" data-wow-delay="0.8s">Random words to fill, random words to fill, random words to fill</p>
-                    
-                      
-    
-                   
-                
-            
-        
-        
+
+
+
+
+
+
+
+
         </div>
 <div class="div2">
-    
+
     <h5 class=" wow fadeInUp animated">Bienvenidos</h5>
                         <h3 class=" wow fadeInUp animated" data-wow-delay="0.5s">SOME RANDOM TEXT, TEXT, TEXT</h3>
                         <p class=" wow fadeInUp animated" data-wow-delay="0.8s">Random words to fill, random words to fill, random words to fill</p>
-    
-    
+
+
 </div>
 </div>
     -->
@@ -346,10 +182,10 @@ document.createElement = (function () {
                 <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
             </div>
             <div class="row latest_blog">-->
-                
+
                 <?php #getblogridposts("blogs");?>
                 <!--bloggrids-->
-                       
+
            <!-- </div>
         </div>
     </section>-->
@@ -376,14 +212,14 @@ document.createElement = (function () {
                                             <div class="portfolio_filter portfolio_filter_2" id="asdf">
                                                 <ul>
                                                     <li class="active" data-filter="*">
-                                                        <a href="../../../pagos.html">
+                                                        <a href="../../../pagos.php">
                                                             <i aria-hidden="true" class="fa fa-check">
                                                             </i>
                                                             Pagos
                                                         </a>
                                                     </li>
                                                     <li data-filter=".building">
-                                                        <a href="../../../reports.html">
+                                                        <a href="../../../reportes.php">
                                                             <i aria-hidden="true" class="fa fa-exclamation">
                                                             </i>
                                                             Reportar
@@ -391,10 +227,10 @@ document.createElement = (function () {
                                                     </li>
                                                     <!--<li data-filter=".webdesign"><a href="consultarm.html"><i class="fa fa-archive" aria-hidden="true"></i>Facturas</a></li>-->
                                                     <li data-filter=".webdesign">
-                                                        <a href="../../../app.html">
+                                                        <a href="../../../app.php">
                                                             <i aria-hidden="true" class="fab fa-android">
                                                             </i>
-                                                            APP 
+                                                            APP
                                                         </a>
                                                     </li>
                                                     <!--<li data-filter=".adversting"><a href="clientes.html"><i class="fa fa-user" aria-hidden="true"></i>PERFIL</a></li>-->
@@ -434,14 +270,14 @@ document.createElement = (function () {
             </div>
         </section>
         <section>
-            <a href="../../../blog-2.html">
+            <a href="../../../blog-2.php">
                 <img src="../../../images/gadget.svg"/>
             </a>
         </section>
         <section>
-            
+
         </section>
-        <!-- About Us Area 
+        <!-- About Us Area
     <section class="about_us_area row">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -463,7 +299,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End About Us Area -->
-        <!-- What ew offer Area 
+        <!-- What ew offer Area
     <section class="what_we_area row">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -505,7 +341,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End What ew offer Area -->
-        <!-- Our Features Area 
+        <!-- Our Features Area
     <section class="our_feature_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -559,7 +395,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Features Area -->
-        <!-- Our Services Area 
+        <!-- Our Services Area
     <section class="our_services_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -656,7 +492,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Services Area -->
-        <!-- Our Team Area 
+        <!-- Our Team Area
     <section class="our_team_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -724,7 +560,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Team Area -->
-        <!-- Our Achievments Area 
+        <!-- Our Achievments Area
     <section class="our_achievments_area" data-stellar-background-ratio="0.3">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -756,7 +592,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Achievments Area -->
-        <!-- Our Testimonial Area 
+        <!-- Our Testimonial Area
     <section class="testimonial_area row">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -852,7 +688,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our testimonial Area -->
-        <!-- Our Featured Works Area 
+        <!-- Our Featured Works Area
     <section class="featured_works row" data-stellar-background-ratio="0.3">
         <div class="tittle wow fadeInUp">
             <h2>Our Featured Works</h2>
@@ -918,7 +754,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Featured Works Area -->
-        <!-- Our Latest Blog Area 
+        <!-- Our Latest Blog Area
     <section class="latest_blog_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -948,7 +784,7 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Latest Blog Area -->
-        <!-- Our Partners Area 
+        <!-- Our Partners Area
     <section class="our_partners_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
@@ -978,149 +814,11 @@ document.createElement = (function () {
         </div>
     </section>
     <!-- End Our Partners Area -->
-        <!-- Footer Area -->
-        <footer class="footer_area">
-            <div class="container">
-                <div class="footer_row row">
-                    <div class="col-md-3 col-sm-6 footer_about">
-                        <h2>
-                            ACERCA DE CLYFSA
-                        </h2>
-                        <img alt="" src="../../../images/logo.png" width="70%">
-                            <p>
-                                La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.
-                            </p>
-                            <ul class="socail_icon">
-                                <li>
-                                    <a href="https://api.whatsapp.com/send?phone=clyfsa@clyfsa.com<&text=Hola! Tengo una consulta." target="_top">
-                                        <i aria-hidden="true" class="fa fa-whatsapp">
-                                        </i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.facebook.com/clyfsa/">
-                                        <i aria-hidden="true" class="fa fa-facebook">
-                                        </i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i aria-hidden="true" class="fa fa-twitter">
-                                        </i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i aria-hidden="true" class="fa fa-linkedin">
-                                        </i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </img>
-                    </div>
-                    <div class="col-md-3 col-sm-6 footer_about quick">
-                        <h2>
-                            Accesos
-                        </h2>
-                        <ul class="quick_link">
-                            <li>
-                                <a href="../../../about.html">
-                                    <i class="fa fa-chevron-right">
-                                    </i>
-                                    Empresa
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../../../forms.html">
-                                    <i class="fa fa-chevron-right">
-                                    </i>
-                                    Formularios
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../../../pagos.html">
-                                    <i class="fa fa-chevron-right">
-                                    </i>
-                                    Pagos
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../../../reports.html">
-                                    <i class="fa fa-chevron-right">
-                                    </i>
-                                    Reportes
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../../../planning.html">
-                                    <i class="fa fa-chevron-right">
-                                    </i>
-                                    Planificación
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../../../contact.html">
-                                    <i class="fa fa-chevron-right">
-                                    </i>
-                                    Contacto
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-6 footer_about">
-                        <h2>
-                        </h2>
-                        <a class="twitter" href="#">
-                        </a>
-                        <a class="twitter" href="#">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 footer_about">
-                        <h2>
-                            CONTACTO
-                        </h2>
-                        <address>
-                            <p>
-                                Para consultas o reclamos:
-                            </p>
-                            <ul class="my_address">
-                                <li>
-                                    <a href="#">
-                                        <i aria-hidden="true" class="fa fa-envelope">
-                                        </i>
-                                        clyfsa@clyfsa.com
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tel:+59554142679">
-                                        <i aria-hidden="true" class="fa fa-phone">
-                                        </i>
-                                        (595) 541 42 679
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i aria-hidden="true" class="fa fa-map-marker">
-                                        </i>
-                                        <span>
-                                            Capitán Demattei y Presidente Franco
-Villarrica, PARAGUAY
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </address>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright_area">
-                Copyright 2019 All rights reserved. Designed by
-                <a href="#">
-                    CV.
-                </a>
-            </div>
-        </footer>
-        <!-- End Footer Area -->
+
+    <!-- Footer Area -->
+    <?php include '../../../components/footer/footer.php'; ?>
+    <!-- End Footer Area -->
+
         <!-- jQuery JS -->
         <script src="../../../js/jquery-1.12.0.min.js">
         </script>
