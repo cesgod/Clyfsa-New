@@ -92,7 +92,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="../../../contacto.php">
+                        <a href="../../../noticias.php">
                             Noticias
                         </a>
                     </li>

@@ -207,4 +207,13 @@
 .paga-aqui:hover {
   color: white;
 }
+
+.noticias {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.noticias h2, .noticias p {
+  margin-bottom: 3rem;
+}
 /*# sourceMappingURL=custom.css.map */
