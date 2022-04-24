@@ -53,9 +53,26 @@
                         </a>
                     </li>
                     <li class="dropdown submenu">
-                        <a href="../../../factc.php">
+                        <a href="../../../factc.php" class="dropdown-toggle" data-toggle="dropdown" href="#">
                             Clientes
                         </a>
+                        <ul class="dropdown-menu other_dropdwn">
+                            <li>
+                                <a href="../../../factc.php">
+                                    Consulta de Facturas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../../../forms.php">
+                                    Solicitudes/Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../../../reportes.php">
+                                    Reclamos
+                                </a>
+                            </li>
+                        </ul>
                     </li>
 
                     <li class="dropdown submenu">
@@ -87,7 +104,7 @@
                     </li>
 
                     <li>
-                        <a href="../../../contacto.php">
+                        <a href="../../../preguntas-frecuentes.php">
                             Preguntas Frecuentes
                         </a>
                     </li>

@@ -56,29 +56,18 @@
     <!-- About Us Area -->
     <section class="about_us_area row">
         <div class="container">
-            <div class="tittle wow fadeInUp">
-                <h2>Compañía de Luz y Fuerza S.A.</h2>
-                <h4>Villarrica</h4>
-            </div>
-            <div class="row about_row">
-                <div class="col-md-5 col-sm-6 about_client about_pages_client">
-                    <img src="images/feature-man-3.jpg" alt="">
+            <div class="principal">
+                <div class="titulo">
+                    <img class="logo" src="/images/0logo.png" alt="Logo">
+                    <h2>Compañía de Luz y Fuerza S.A.</h2>
+                    <h4>Villarrica</h4>
                 </div>
-                <div class="subtittle">
-                        <h2>Quiénes Sómos</h2>
-                    </div>
-                    <p align="justify">Fundada en 1953 y siendo puesta en marcha como respuesta a necesidades colectivas de la población civil de Villarrica, se dio origen a CLYFSA: la primera empresa privada de distribución de energía eléctrica en Paraguay.
+                <p>Fundada en 1953 y siendo puesta en marcha como respuesta a necesidades colectivas de la población civil de Villarrica, se dio origen a CLYFSA: la primera empresa privada de distribución de energía eléctrica en Paraguay.
 La virtud de concretar una propuesta de dicha naturaleza confiere a CLYFSA la potestad de definir sus propios objetivos y metas en cuanto a lo que ejecución de políticas de regulación y distribución de energía eléctrica se trata; encontrándose el marco regulatorio limitado y la legislación actual no prevé delegar a personas físicas o empresas privadas la concesión de distribución de energía.
 CLYFSA se erigió como una apuesta planteada ante las exigencias propias de la época en que fue concebida su creación, plasmando la visión de los socios fundadores en los resultados que se fueron obteniendo a lo largo de los 66 años de funcionamiento.
-
-                   </p>
-					<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+                </p>
+            </div>
+            <div class="row about-row">
                 <h3>Actores preponderantes en el sector energético nacional</h3>
 
                     <p align="justify">Con disponibilidad de 60 MVA de capacidad de transformación de energía, abastecemos a más de 15,000 usuarios de energía eléctrica con los más altos estándares de calidad y robustez. Los niveles de crecimiento de la demanda de energía por parte de usuarios finales constituyen una tendencia a la suba del orden de aproximadamente 8% por periodo de ciclo anual.

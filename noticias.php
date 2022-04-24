@@ -53,27 +53,8 @@
 
     <div class="container">
         <div class="noticias">
-            <h2>Noticias</h2>
-            <p>Podes seguir nuestras noticias desde nuestras diferentes redes</p>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="fb-page"
-                        data-href="https://www.facebook.com/clyfsa/"
-                        data-width="380"
-                        data-hide-cover="false"
-                        data-show-facepile="false"
-                        data-tabs="timeline">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <a class="twitter-timeline"
-                        href="https://twitter.com/CLYFSAoficial?ref_src=twsrc%5Etfw"
-                        data-height="500px">
-                        Tweets by CLYFSAoficial
-                    </a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </div>
+            <h2 class="titulo">Noticias</h2>
+            <?php include './components/lists/posts-list.php'; ?>
         </div>
 
     </div>

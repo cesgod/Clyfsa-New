@@ -1,3 +1,10 @@
+<?php require("./libs/posts-lib.php");?>
+
+<?php
+    $id = $_REQUEST["id"];
+    $post = getPostById($id);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +12,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CLYFSA | Formularios</title>
+    <title>CLYFSA | <?php echo $post["title"] ?> </title>
 
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Animate CSS -->
@@ -29,6 +36,8 @@
     <link href="../../../css/custom.css" media="all" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=2462060330692461&autoLogAppEvents=1" nonce="2WwyPdiB"></script>
     <!-- Preloader -->
     <div class="preloader"></div>
 
@@ -39,23 +48,24 @@
     <?php include './components/headers/header-menu.php'; ?>
     <!-- End Header_Area -->
 
-    <!-- Titulo -->
     <div class="container">
-        <h2 class="titulo">Formularios de solicitudes</h2>
-    </div>
-    <!-- End Titulo -->
-
-    <section class="container">
-        <div class="formularios">
-            <p>En este apartado podrás descargar los formularios de solicitudes,
-                que deberás completar con los datos o documentos que figuren entre los requisitos y
-            acercar a nuestra oficina para ingresar la solicitud.</p>
-            <a href="archivos_pedidos.php">
-                <i class="fa fa-archive"></i>
-                Descargar Formularios
-            </a>
+        <div class="noticia">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <h1><?php echo $post['title'] ?></h1>
+                    <?php $date = date_create($post["date"]); ?>
+                    <div class="post-date">
+                        <?= date_format($date, 'd-m-Y'); ?>
+                    </div>
+                    <div class="content">
+                        <?php echo $post['content'] ?>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+
+    </div>
 
     <!-- Footer Area -->
     <?php include './components/footer/footer.php'; ?>
@@ -86,6 +96,7 @@
     <script src="js/theme.js"></script>
 </body>
 </html>
+
 <script>
 if(document.getElementById('ftnt_topbar_script')) {
     document.getElementById('ftnt_topbar_script').remove()

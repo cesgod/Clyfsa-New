@@ -5,7 +5,7 @@
             <div class="col-md-4 col-sm-6 footer_about">
                 <h2>ACERCA DE CLYFSA</h2>
                 <img src="images/logo.png" alt="" width="70%">
-                <p>La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 15.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
+                <p>La Compañía de Luz y Fuerza S.A. Fundada en 1953. Es una compañía de distribución de energía eléctrica que provee a más de 17.000 Familias en la ciudad de Villarrica de forma segura, robusta y confiable.</p>
                 <div class="social-icon">
                     <a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_top">
                         <i class="fa fa-whatsapp" aria-hidden="true"></i>

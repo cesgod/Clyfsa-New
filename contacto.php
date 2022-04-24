@@ -44,13 +44,9 @@
     <!-- End Header_Area -->
 
     <!-- Banner area -->
-    <section class="banner_area" data-stellar-background-ratio="0.5">
-        <h2>Contacto</h2>
-        <ol class="breadcrumb">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#" class="active">Contacto</a></li>
-        </ol>
-    </section>
+    <div class="container">
+        <h2 class="titulo">Contacto</h2>
+    </div>
     <!-- End Banner area -->
     <div class="container">
         <div class="row contacto">
@@ -62,8 +58,12 @@
                         <a href="https://goo.gl/maps/hY2qHVuJ9Pd6SUP27" target="_blank">Capitán Demattei y Presidente Franco<br> Villarrica, PARAGUAY </a>
                     </div>
                     <div class="address-item">
-                        <span>Whatsapp</span>
+                        <span>Whatsapp Reclamos</span>
                         <a href="https://api.whatsapp.com/send?phone=595982305305&text=Hola! Tengo una consulta." target="_blank">+595 982 305 305 </a>
+                    </div>
+                    <div class="address-item">
+                        <span>Whatsapp Consultas</span>
+                        <a href="https://api.whatsapp.com/send?phone=595994473983&text=Hola! Tengo una consulta." target="_blank">+595 994 473 983 </a>
                     </div>
                     <div class="address-item">
                         <span>Teléfono</span>
