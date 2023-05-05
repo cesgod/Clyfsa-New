@@ -1,4 +1,3 @@
-<!-- Header_Area -->
 <nav class="navbar navbar-default header_aera" id="main_navbar">
     <div class="container">
         <!-- searchForm -->
@@ -10,10 +9,10 @@
                         </i>
                     </span>
                     <input class="form-control" name="search" placeholder="Escriba y presione Enter" type="search">
-                        <span class="input-group-addon form_hide">
-                            <i class="fa fa-times">
-                            </i>
-                        </span>
+                    <span class="input-group-addon form_hide">
+                        <i class="fa fa-times">
+                        </i>
+                    </span>
                     </input>
                 </div>
             </form>
@@ -34,7 +33,7 @@
                     </span>
                 </button>
                 <a class="navbar-brand" href="../../../index.php">
-                    <img alt="" class="imglogo" src="../../../images/0logo.png"/>
+                    <img alt="" class="imglogo" src="../../../images/0logo.png" />
                 </a>
             </div>
         </div>
@@ -42,21 +41,21 @@
         <div class="col-md-10 p0">
             <div class="collapse navbar-collapse" id="min_navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown submenu">
+                    <li class="dropdown">
                         <a href="../../../index.php">
                             Inicio
                         </a>
                     </li>
-                    <li class="dropdown submenu">
+                    <li class="dropdown">
                         <a href="../../../about.php">
                             Empresa
                         </a>
                     </li>
-                    <li class="dropdown submenu">
+                    <li class="dropdown">
                         <a href="../../../factc.php" class="dropdown-toggle" data-toggle="dropdown" href="#">
                             Clientes
                         </a>
-                        <ul class="dropdown-menu other_dropdwn">
+                        <ul class="dropdown-menu">
                             <li>
                                 <a href="../../../factc.php">
                                     Consulta de Facturas
@@ -75,11 +74,11 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown submenu">
+                    <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             Sistemas de Distribución
                         </a>
-                        <ul class="dropdown-menu other_dropdwn">
+                        <ul class="dropdown-menu">
                             <li>
                                 <a href="../../../planning.php">
                                     Planificación
@@ -120,4 +119,3 @@
     </div>
     <!-- /.container -->
 </nav>
-<!-- End Header_Area -->

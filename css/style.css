@@ -323,13 +323,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .header_aera .navbar-header .navbar-brand img {
   max-width: 100%;
 }
-.header_aera .navbar-collapse .navbar-nav.navbar-right li a {
-  font: 700 14px/100px "Roboto", sans-serif;
-  color: #222222;
-  text-transform: uppercase;
-  padding: 0;
-  padding-left: 30px;
-}
+
 .header_aera .navbar-collapse .navbar-nav.navbar-right li a:hover, .header_aera .navbar-collapse .navbar-nav.navbar-right li a:focus {
   color: #008bb9;
 }
@@ -447,19 +441,19 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------*/
 /* slider_area */
 .slider_area .slider_inner .camera_caption{
-	
+
 	height: 60% !important;
 	background: rgba(255,239,31,0.00);
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin: 0px;
-	
+
 }
 
 .opac{
-	
+
 	background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5));
-} 
+}
 
 .slider_area .slider_inner .camera_caption div {
   background: transparent;
@@ -567,7 +561,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	height: auto;
 	vertical-align: middle;
 	text-align: center;
-	
+
   }
 .div1 div{
 	position: relative;
@@ -577,10 +571,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	height: auto;
 	vertical-align: middle;
 	text-align: center;
-	
-	
-	
-	
+
+
+
+
 }
 
 
@@ -620,9 +614,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	float: left;
 	display: flex;
 	flex-direction: row;
-	
-	
-	
+
+
+
 }
 
 
@@ -637,7 +631,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 .chartidon div{
 	position: inherit;
-	
+
     width: 100%;
     height: 100%;
 	padding: 50px;
@@ -647,9 +641,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	float: left;
 	display: flex;
 	flex-direction: row;
-	
-	
-	
+
+
+
 }
 
 
@@ -669,7 +663,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 /* Clear floats after the columns */
 .row:after {
-  
+
   clear: both;
 	padding: 20px;
 }
@@ -684,7 +678,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .formscap div {
 	text-align: center;
 	height: 50%;
-	
+
 }
 
 
@@ -741,7 +735,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   position: relative;
   z-index: 1;
   padding-bottom: 70px;
-	
+
 }
 .banner_area:after {
   content: "";
@@ -1116,15 +1110,15 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 .our_services_tow .architecture_area .portfolio_filter_2 ul li:hover{
 	box-shadow: 10px 10px 0px rgba(97,151,181,1.00);
-	
+
 }
 .our_services_tow .architecture_area .portfolio_filter_2 ul li:hover, .our_services_tow .architecture_area .portfolio_filter_2 ul li:focus, .our_services_tow .architecture_area .portfolio_filter_2 ul li.active {
   border-bottom: 30px solid #008bb9;
-	
+
 }
 .our_services_tow .architecture_area .portfolio_filter_2 ul li:hover a, .our_services_tow .architecture_area .portfolio_filter_2 ul li:focus a, .our_services_tow .architecture_area .portfolio_filter_2 ul li.active a {
   color: #008bb9;
-	
+
 }
 .our_services_tow .architecture_area .portfolio_2 {
   padding-top: 90px;
@@ -2314,7 +2308,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   transform: scaleY(1);
 }
 .footer_area .footer_row .footer_about .quick_link {
-  padding:0; 
+  padding:0;
   margin: 0;
 }
 .footer_area .footer_row .footer_about .quick_link li {
@@ -2446,8 +2440,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	.imglogo {
 	width: 200%;
 }
-	
-	
+
+
 @media (max-width: 1199px) {
 
 .top_header_area .top_nav li a {
@@ -2484,7 +2478,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .appicon{
   max-width: 200px
 }
-	
+
 .top_header_area .top_nav li a {
   font: 400 24px/50px "Roboto", sans-serif;
   color: #fff;
@@ -2605,7 +2599,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 @media (max-width: 800px) {
-	
+
   .appicon{
   max-width: 200px
 }
@@ -2634,7 +2628,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding: 0;
   padding-left: 30px;
 }
-	
+
 	.imglogo {
 	width: 45%;
 }
@@ -2797,7 +2791,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 @media (max-width: 689px) {
-	
+
 .appicon{
   max-width: 200px
 }
@@ -2810,7 +2804,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	.imglogo {
 	width: 40%;
 }
-	
+
   .slider_area .slider_inner .camera_caption div {
     width: 88%;
     right: 0;
@@ -2827,7 +2821,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 @media (max-width: 546px) {
-	
+
 .appicon{
   max-width: 200px
 }
@@ -2840,7 +2834,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	.imglogo {
 	width: 35%;
 }
-	
+
   .call_min_area h2 {
     font-size: 40px;
   }
@@ -2859,7 +2853,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding: 0;
   padding-left: 30px;
 }
-	
+
 	.imglogo {
 	width: 30%;
 }
@@ -2907,7 +2901,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 @media (max-width: 446px) {
-	
+
 
 .appicon{
   max-width: 200px
@@ -2921,7 +2915,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	.imglogo {
 	width: 30%;
 }
-	
+
   .slider_area_tow .slider_inner .camera_caption div {
     padding-top: 40px;
   }
@@ -2945,11 +2939,11 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding: 0;
   padding-left: 20px;
 }
-	
+
 	.imglogo {
 	width: 25%;
 }
-	
+
   .slider_area .slider_inner .camera_caption div h3 {
     font-size: 26px;
   }
@@ -2989,7 +2983,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 @media (max-width: 320px) {
-	
+
 
 .appicon{
   max-width: 200px
@@ -2999,13 +2993,13 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fff;
   padding: 0;
   padding-left: 30px;
-}	
-	
+}
+
 	.imglogo {
 	width: 25%;
 }
-	
-	
+
+
   .slider_area_tow .slider_inner .camera_caption div {
     padding-top: 95px;
   }

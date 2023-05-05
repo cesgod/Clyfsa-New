@@ -47,7 +47,7 @@
       flex-direction: column;
       padding-left: 1rem;
       a {
-        font-size: 2rem;
+        font-size: 1.6rem;
         margin-bottom: 1rem;
         color: white;
       }
@@ -59,7 +59,7 @@
     flex-direction: column;
     margin-top: 1rem;
     a {
-      font-size: 2rem;
+      font-size: 1.6rem;
       color: white;
       margin-bottom: 1rem;
       span {
@@ -353,10 +353,10 @@
 }
 
 .puntos {
-    margin-top: 5rem;
-    h2 {
-        text-align: center;
-    }
+  margin-top: 5rem;
+  h2 {
+    text-align: center;
+  }
 }
 .punto {
   .card {
@@ -444,3 +444,7 @@
     }
   }
 }
+
+@import "home";
+@import "header";
+@import "slideshow";
